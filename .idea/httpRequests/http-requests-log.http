@@ -1,0 +1,36 @@
+POST https://homegraph.googleapis.com/v1/devices:requestSync?key=AIzaSyDtPd-88Awaq-OTgFTOwnpglKSXTcWiw_8
+Accept: */*
+Cache-Control: no-cache
+
+{agent_user_id: "1234"}
+
+<> 2018-05-06T091528.404.json
+
+###
+
+POST https://homegraph.googleapis.com/v1/devices:requestSync?key=AIzaSyDtPd-88Awaq-OTgFTOwnpglKSXTcWiw_8
+Accept: */*
+Cache-Control: no-cache
+
+{agent_user_id: "rick"}
+
+<> 2018-05-06T091346.404.json
+
+###
+
+POST https://homegraph.googleapis.com/v1/devices:requestSync?key=AIzaSyDtPd-88Awaq-OTgFTOwnpglKSXTcWiw_8
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T091257.403.json
+
+###
+
+GET https://homegraph.googleapis.com/v1/devices:requestSync?key=AIzaSyDtPd-88Awaq-OTgFTOwnpglKSXTcWiw_8
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T091249.404.html
+
+###
+
