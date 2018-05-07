@@ -4,8 +4,9 @@
   "description": "Mock implementation of device manufacturer platform to facilitate development of sample device and adapter.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js isLocal",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd frontend && ../node_modules/bower/bin/bower install"
   },
   "author": "",
   "license": "Apache-2.0",
@@ -20,6 +21,7 @@
     "express-session": "^1.15.0",
     "morgan": "^1.7.0",
     "ngrok": "^2.2.5",
-    "node-fetch": "^1.6.3"
+    "node-fetch": "^1.6.3",
+    "bower": "^1.8.4"
   }
 }
