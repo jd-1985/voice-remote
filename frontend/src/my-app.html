@@ -171,7 +171,8 @@ limitations under the License.
         </paper-dialog>
 
 
-        <paper-button on-tap="_sendMQTT">Send Code</paper-button>
+        <paper-button on-tap="_sendMQTT('tv')">On/Off TV</paper-button>
+        <paper-button on-tap="_sendMQTT('sbar')">On/Off Soundbar</paper-button>
         <div id="no-devices-msg" hidden="[[hide]]">
             <p class="layout horizontal center-justified">
                 You currently don't have any devices set up. To set up a device, click the "+" button and take it online.
@@ -911,8 +912,14 @@ limitations under the License.
                     });
                 }
             },
-            _sendMQTT: function () {
-                this._callSmartHomeProviderCloud('/sendMessage', 'POST');
+            _sendMQTT: function (type) {
+                var request = {};
+                if(type=='tv'){
+                    request.code = "SONY:A90";
+                }else {
+                    request.code = "NEC:5D0532CD";
+                }
+                this._callSmartHomeProviderCloud('/sendMessage', 'POST', request);
             },
             _callSmartHomeProviderCloud(path, method, opt_body) {
                 const options = {

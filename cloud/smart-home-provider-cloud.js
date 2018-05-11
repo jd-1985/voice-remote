@@ -419,8 +419,9 @@ app.post('/smart-home-api/sendMessage', function (request, response) {
         });
 
         // publish a message to a topic
-        MqttClient.client.publish('/feeds/irSend', 'my random message', function() {
-            console.log("Message is published");
+        var message = request.code;
+        MqttClient.client.publish('/feeds/irSend', message, function() {
+            console.log("Published " + message + " to /feeds/irSend");
             MqttClient.client.end(); // Close the connection when published
         });
     });
