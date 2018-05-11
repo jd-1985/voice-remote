@@ -407,6 +407,7 @@ app.post('/smart-home-api/sendMessage', function (request, response) {
         username: auth[0],
         password: auth[1]
     });
+    console.log("****************" + JSON.stringify(request.body));
 
     MqttClient.client.on('connect', function() { // When connected
 
@@ -419,7 +420,7 @@ app.post('/smart-home-api/sendMessage', function (request, response) {
         });
 
         // publish a message to a topic
-        var message = request.code;
+        var message = request.body.code;
         MqttClient.client.publish('/feeds/irSend', message, function() {
             console.log("Published " + message + " to /feeds/irSend");
             MqttClient.client.end(); // Close the connection when published
