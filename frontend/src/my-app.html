@@ -23,6 +23,7 @@ limitations under the License.
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../bower_components/paper-toast/paper-toast.html">
 <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.3.3.css">
+<link rel="import" href="../bower_components/mqtt-elements/mqtt-elements.html">
 <link rel="import" href="smart-light.html">
 <link rel="import" href="smart-thermostat.html">
 <link rel="import" href="smart-scene.html">
@@ -169,6 +170,8 @@ limitations under the License.
             </div>
         </paper-dialog>
 
+
+        <paper-button on-tap="_sendMQTT">Send Code</paper-button>
         <div id="no-devices-msg" hidden="[[hide]]">
             <p class="layout horizontal center-justified">
                 You currently don't have any devices set up. To set up a device, click the "+" button and take it online.
@@ -908,7 +911,20 @@ limitations under the License.
                     });
                 }
             },
-            _sendMQTT: function () { }
+            _sendMQTT: function () {
+                this._callSmartHomeProviderCloud('/sendMessage', 'POST');
+            },
+            _callSmartHomeProviderCloud(path, method, opt_body) {
+                const options = {
+                    method: method,
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + AUTH_TOKEN
+                    }
+                };
+                if (opt_body) options.body = JSON.stringify(opt_body);
+                return fetch(SMART_HOME_PROVIDER_CLOUD_ENDPOINT + path, options);
+            }
         });
     </script>
 </dom-module>
