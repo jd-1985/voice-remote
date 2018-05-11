@@ -16,12 +16,13 @@
   "dependencies": {
     "actions-on-google": "^1.0.3",
     "body-parser": "^1.15.2",
+    "bower": "^1.8.4",
     "ejs": "^2.5.7",
     "express": "^4.14.0",
     "express-session": "^1.15.0",
     "morgan": "^1.7.0",
+    "mqtt": "^2.17.0",
     "ngrok": "^2.2.5",
-    "node-fetch": "^1.6.3",
-    "bower": "^1.8.4"
+    "node-fetch": "^1.6.3"
   }
 }
