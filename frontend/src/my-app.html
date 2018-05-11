@@ -367,7 +367,6 @@ limitations under the License.
                         switch(devices[id].properties.type) {
                             case 'action.devices.types.LIGHT':
                                 app._addLight(null, devices[id]);
-                                app._sendMQTT();
                                 break;
                             case 'action.devices.types.THERMOSTAT':
                                 app._addThermostat(null, devices[id]);
@@ -421,6 +420,7 @@ limitations under the License.
             },
 
             _addLight: function (event, light) {
+                this._sendMQTT();
                 this.hideNoDeviceMessage();
                 this.deviceCount++;
                 let nicknames = ['table lamp', 'reading lamp', 'doorway', 'stairway'];
