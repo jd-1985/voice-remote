@@ -135,7 +135,7 @@ const Auth = {
     '1234': {
       uid: '1234',
       name: 'rick',
-      password: 'oldman',
+      password: 'oldman@123',
       tokens: ['psokmCxKjfhk7qHLeYd1']
     },
     '2345': {

@@ -23,7 +23,6 @@ limitations under the License.
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../bower_components/paper-toast/paper-toast.html">
 <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.3.3.css">
-<link rel="import" href="../bower_components/mqtt-elements/mqtt-elements.html">
 <link rel="import" href="smart-light.html">
 <link rel="import" href="smart-thermostat.html">
 <link rel="import" href="smart-scene.html">
@@ -173,11 +172,11 @@ limitations under the License.
 
         <paper-button on-tap="_sendMQTT" data-args="tv">On/Off TV</paper-button>
         <paper-button on-tap="_sendMQTT" data-args="sbar">On/Off Soundbar</paper-button>
-        <div id="no-devices-msg" hidden="[[hide]]">
+        <!--<div id="no-devices-msg" hidden="[[hide]]">
             <p class="layout horizontal center-justified">
                 You currently don't have any devices set up. To set up a device, click the "+" button and take it online.
             </p>
-        </div>
+        </div>-->
 
         <iron-list id="light-list" items="[[lights]]" as="item" grid>
             <template>
@@ -237,7 +236,7 @@ limitations under the License.
     </template>
 
     <script>
-        var nextDeviceId = 0;
+        var nextDeviceId = 1;
 
         function getNextDeviceId() {
             return nextDeviceId++;
@@ -280,7 +279,42 @@ limitations under the License.
 
             ready: function () {
                 // Reset all user devices
-                this.lights = [];
+                this.lights = [{
+                    id: "500",
+                    properties : {
+                        type: 'action.devices.types.LIGHT',
+                        traits: [
+                            'action.devices.traits.OnOff',
+                            'action.devices.traits.Brightness',
+                            'action.devices.traits.ColorSpectrum'
+                        ],
+                        name: {
+                            defaultNames: ['Bose Soundbar'],
+                            name: 'Soundbar',
+                            nicknames: [ 'soundbar', 'speaker', 'speakers', 'sound' ]
+                        },
+                        willReportState: false,
+                        roomHint: '',
+                        deviceInfo: {
+                            manufacturer: 'Bose',
+                            model: 'g1337',
+                            swVersion: '1.0.11',
+                            hwVersion: '1.1'
+                        },
+                        customData: {
+                            smartHomeProviderId: 'FkldJVJCmDNSaoLkoq0txiz8Byf2Hr'
+                        }
+                    },
+                    states: {
+                        on: false,
+                        online: true,
+                        brightness: 80,
+                        color: {
+                            name: 'cerulean',
+                            spectrumRGB: 31655
+                        }
+                    }
+                }];
                 this.thermostats = [];
                 this.scenes = [];
                 this.cameras = [];
@@ -424,7 +458,6 @@ limitations under the License.
             },
 
             _addLight: function (event, light) {
-                this._sendMQTT();
                 this.hideNoDeviceMessage();
                 this.deviceCount++;
                 let nicknames = ['table lamp', 'reading lamp', 'doorway', 'stairway'];
