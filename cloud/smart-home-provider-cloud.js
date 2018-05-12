@@ -411,23 +411,10 @@ app.post('/smart-home-api/sendMessage', function (request, response) {
       MqttClient.client.reconnect();
     }
     console.log("****************" + JSON.stringify(request.body));
-
-    MqttClient.client.on('connect', function() { // When connected
-
-        // subscribe to a topic
-        MqttClient.client.subscribe('hello/world', function() {
-            // when a message arrives, do something with it
-            MqttClient.client.on('message', function(topic, message, packet) {
-                console.log("Received '" + message + "' on '" + topic + "'");
-            });
-        });
-
-        // publish a message to a topic
-        var message = request.body.code;
-        MqttClient.client.publish('/feeds/irSend', message, function() {
-            console.log("Published " + message + " to /feeds/irSend");
-            MqttClient.client.end(); // Close the connection when published
-        });
+    var message = request.body.code;
+    MqttClient.client.publish('/feeds/irSend', message, function() {
+        console.log("Published " + message + " to /feeds/irSend");
+        MqttClient.client.end(); // Close the connection when published
     });
 });
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
