@@ -87,7 +87,7 @@ const Auth = {
       accessToken: 'psokmCxKjfhk7qHLeYd1',
       refreshToken: 'psokmCxKjfhk7qHLeYd1',
       userId: '1234'
-    },
+    }/*,
     'bfrrLnxxWdULSh3Y9IU2cA5pw8s4ub': {
       uid: '2345',
       accessToken: 'bfrrLnxxWdULSh3Y9IU2cA5pw8s4ub',
@@ -129,7 +129,7 @@ const Auth = {
       accessToken: '7TX3ExuETedX8WneDT48',
       refreshToken: '7TX3ExuETedX8WneDT48',
       userId: '4321'
-    }
+    }*/
   },
   users: {
     '1234': {
@@ -137,7 +137,7 @@ const Auth = {
       name: 'rick',
       password: 'oldman@123',
       tokens: ['psokmCxKjfhk7qHLeYd1']
-    },
+    }/*,
     '2345': {
       uid: '2345',
       name: 'summer',
@@ -179,17 +179,17 @@ const Auth = {
       name: 'morty',
       password: 'j3ssica',
       tokens: ['7TX3ExuETedX8WneDT48']
-    }
+    }*/
   },
   usernames: {
-    'rick': '1234',
+    'rick': '1234'/*,
     'summer': '2345',
     'beth': '3456',
     'jerry': '4567',
     'birdperson': '5678',
     'squanchy': '6789',
     'jessica': '7890',
-    'morty': '4321'
+    'morty': '4321'*/
   },
   authcodes: {}
 };
@@ -465,10 +465,10 @@ Data.resetDevices = function (uid) {
     console.error("cannot remove a device without first registering the user!");
     return;
   }
-  console.info("Deleting all devices for " + uid);
-  Data[uid] = {};
-  Data.version = 0;
-}
+  console.info("Not Deleting all devices for " + uid);
+  //Data[uid] = {};
+  //Data.version = 0;
+};
 
 /**
  * removes a device from authstore

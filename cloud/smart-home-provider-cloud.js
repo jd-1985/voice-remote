@@ -404,19 +404,34 @@ MqttClient.client = mqtt.connect(mqtt_url, {
     username: auth[0],
     password: auth[1]
 });
-// Create a client connection
-app.post('/smart-home-api/sendMessage', function (request, response) {
-    // console.log('post /smart-home-api/status');
-    if(!MqttClient.client.connected){
-      MqttClient.client.reconnect();
-    }
+
+
+app.sendMessage = function (message) {
     console.log("****************" + JSON.stringify(request.body));
-    var message = request.body.code;
     MqttClient.client.publish('/feeds/irSend', message, function() {
         console.log("Published " + message + " to /feeds/irSend");
         MqttClient.client.end(); // Close the connection when published
     });
+};
+
+// Create a client connection
+app.post('/smart-home-api/sendMessage', function (request, response) {
+    // console.log('post /smart-home-api/status');
+    var message = request.body.code;
+    app.sendMessage(message);
 });
+
+app.post('/smart-home-api/getDevices', function (request, response) {
+    let authToken = authProvider.getAccessToken(request);
+    let uid = datastore.Auth.tokens[authToken].uid;
+    var devices = datastore.Data;
+    response.status(200)
+        .send(devices);
+
+
+});
+
+
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 app.use('/frontend', express.static('./frontend'));
@@ -462,6 +477,7 @@ app.smartHomeQueryStates = function (uid, deviceList) {
 app.smartHomeExec = function (uid, device) {
   // console.log('smartHomeExec', device);
   datastore.execDevice(uid, device);
+  app.sendMessage("NEC:5D0532CD");
   let executedDevice = datastore.getStatus(uid, [device.id]);
   console.log('smartHomeExec executedDevice', JSON.stringify(executedDevice));
   return executedDevice;
