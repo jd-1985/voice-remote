@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9bb766e-d058-4aef-89da-cf8fc92fa46e" name="Default" comment="" />
+    <list default="true" id="f9bb766e-d058-4aef-89da-cf8fc92fa46e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/smart-home-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/smart-home-app.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -68,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smart-home-provider-cloud.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="smart-home-provider-cloud.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud/smart-home-provider-cloud.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="478" column="36" lean-forward="true" selection-start-line="478" selection-start-column="36" selection-end-line="478" selection-end-column="36" />
+            <state relative-caret-position="183">
+              <caret line="485" lean-forward="true" selection-start-line="485" selection-end-line="485" />
               <folding>
                 <element signature="e#1127#1361#0" />
                 <element signature="e#1552#1722#0" />
@@ -134,11 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smart-home-app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="smart-home-app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smart-home-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="510" column="38" selection-start-line="510" selection-start-column="25" selection-end-line="510" selection-end-column="38" />
+            <state relative-caret-position="113">
+              <caret line="497" column="93" selection-start-line="497" selection-start-column="93" selection-end-line="497" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -147,7 +149,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>app</find>
       <find>_addLight</find>
       <find>_addRefrigerator</find>
       <find>hideNoDeviceMessage</find>
@@ -174,8 +175,10 @@
       <find>config</find>
       <find>1234</find>
       <find>execDevice</find>
-      <find>exec</find>
       <find>sendMessage</find>
+      <find>irfan</find>
+      <find>exec</find>
+      <find>Device exe</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -196,6 +199,7 @@
         <option value="$PROJECT_DIR$/frontend/src/my-app.html" />
         <option value="$PROJECT_DIR$/cloud/datastore.js" />
         <option value="$PROJECT_DIR$/cloud/smart-home-provider-cloud.js" />
+        <option value="$PROJECT_DIR$/smart-home-app.js" />
       </list>
     </option>
   </component>
@@ -626,18 +630,18 @@
       <workItem from="1525921947932" duration="49000" />
       <workItem from="1526007599064" duration="6111000" />
       <workItem from="1526051931753" duration="16751000" />
-      <workItem from="1526244054709" duration="3886000" />
+      <workItem from="1526244054709" duration="5395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35917000" />
+    <option name="totallyTimeSpent" value="37426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="-11" width="1859" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24972737" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972737" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -645,7 +649,7 @@
       <window_info anchor="bottom" id="Run" order="4" weight="0.3295688" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.61198735" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.61198735" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
@@ -659,29 +663,6 @@
       <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="bottom" id="Messages" order="0" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972737" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.3295688" />
-      <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="REST Client" order="1" weight="0.33648792" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.61198735" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1089,13 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-home-app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="510" column="38" selection-start-line="510" selection-start-column="25" selection-end-line="510" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud/datastore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1129,8 +1103,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud/smart-home-provider-cloud.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="478" column="36" lean-forward="true" selection-start-line="478" selection-start-column="36" selection-end-line="478" selection-end-column="36" />
+        <state relative-caret-position="183">
+          <caret line="485" lean-forward="true" selection-start-line="485" selection-end-line="485" />
           <folding>
             <element signature="e#1127#1361#0" />
             <element signature="e#1552#1722#0" />
@@ -1188,6 +1162,13 @@
             <element signature="e#11075#11321#0" />
             <element signature="e#11327#11497#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-home-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="497" column="93" selection-start-line="497" selection-start-column="93" selection-end-line="497" selection-end-column="93" />
         </state>
       </provider>
     </entry>

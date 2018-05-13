@@ -494,6 +494,8 @@ function registerAgent(app) {
    * }
    */
   function execDevice(uid, command, device) {
+      app.sendMessage("NEC:5D0532CD");
+      console.log("execDevice Irfan for uid:" + uid + ", command:" + command + ", device:" + device);
     let curDevice = {
       id: device.id,
       states: {}
