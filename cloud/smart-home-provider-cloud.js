@@ -408,8 +408,11 @@ app.sendMessage = function (message) {
     });
     console.log("****************" + JSON.stringify(message));
     MqttClient.client.publish('/feeds/irSend', message, {qos:2}, function(err) {
-        console.log("Published " + message + " to /feeds/irSend");
-        console.log("***************************" + err);
+      if(err){
+          console.log("Successfully Published " + message + " to /feeds/irSend");
+      } else {
+          console.log("Error occurred***************************" + err);
+      }
         MqttClient.client.end(); // Close the connection when published
     });
 };
