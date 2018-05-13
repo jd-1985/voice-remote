@@ -477,8 +477,9 @@ app.smartHomeQueryStates = function (uid, deviceList) {
 app.smartHomeExec = function (uid, device) {
   // console.log('smartHomeExec', device);
   datastore.execDevice(uid, device);
-  app.sendMessage("NEC:5D0532CD");
+  console.log('smartHomeExec executedDevice Irfan', JSON.stringify(executedDevice));
   let executedDevice = datastore.getStatus(uid, [device.id]);
+  //app.sendMessage("NEC:5D0532CD");
   console.log('smartHomeExec executedDevice', JSON.stringify(executedDevice));
   return executedDevice;
 };
