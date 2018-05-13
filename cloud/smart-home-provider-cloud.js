@@ -407,7 +407,7 @@ MqttClient.client = mqtt.connect(mqtt_url, {
 
 
 app.sendMessage = function (message) {
-    console.log("****************" + JSON.stringify(request.body));
+    console.log("****************" + JSON.stringify(message));
     MqttClient.client.publish('/feeds/irSend', message, function() {
         console.log("Published " + message + " to /feeds/irSend");
         MqttClient.client.end(); // Close the connection when published
