@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9bb766e-d058-4aef-89da-cf8fc92fa46e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/datastore.js" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/datastore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud/smart-home-provider-cloud.js" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/smart-home-provider-cloud.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/my-app.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/my-app.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,8 +73,8 @@
       <file leaf-file-name="smart-home-provider-cloud.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud/smart-home-provider-cloud.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="479" column="34" lean-forward="true" selection-start-line="479" selection-start-column="34" selection-end-line="479" selection-end-column="34" />
+            <state relative-caret-position="135">
+              <caret line="407" column="7" lean-forward="true" selection-start-line="407" selection-start-column="7" selection-end-line="407" selection-end-column="7" />
               <folding>
                 <element signature="e#1127#1361#0" />
                 <element signature="e#1552#1722#0" />
@@ -112,7 +108,6 @@
                 <element signature="e#6403#6520#0" />
                 <element signature="e#6675#6792#0" />
                 <element signature="e#6833#7146#0" />
-                <element signature="e#7209#8237#0" />
                 <element signature="e#7365#7561#0" />
                 <element signature="e#7396#7513#0" />
                 <element signature="e#7683#7888#0" />
@@ -159,7 +154,6 @@
       <find>_addRefrigerator</find>
       <find>hideNoDeviceMessage</find>
       <find>execute-scene</find>
-      <find>exec</find>
       <find>register</find>
       <find>remove</find>
       <find>remove-device</find>
@@ -182,6 +176,7 @@
       <find>config</find>
       <find>1234</find>
       <find>execDevice</find>
+      <find>exec</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -632,18 +627,18 @@
       <workItem from="1525921947932" duration="49000" />
       <workItem from="1526007599064" duration="6111000" />
       <workItem from="1526051931753" duration="16751000" />
-      <workItem from="1526244054709" duration="2378000" />
+      <workItem from="1526244054709" duration="3255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34409000" />
+    <option name="totallyTimeSpent" value="35286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="-11" width="1859" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972737" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972737" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -651,7 +646,7 @@
       <window_info anchor="bottom" id="Run" order="4" weight="0.3295688" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32912722" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.28916928" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
@@ -760,7 +755,6 @@
             <element signature="e#6403#6520#0" />
             <element signature="e#6675#6792#0" />
             <element signature="e#6833#7146#0" />
-            <element signature="e#7209#8237#0" />
             <element signature="e#7365#7561#0" />
             <element signature="e#7396#7513#0" />
             <element signature="e#7683#7888#0" />
@@ -877,7 +871,6 @@
             <element signature="e#6403#6520#0" />
             <element signature="e#6675#6792#0" />
             <element signature="e#6833#7146#0" />
-            <element signature="e#7209#8237#0" />
             <element signature="e#7365#7561#0" />
             <element signature="e#7396#7513#0" />
             <element signature="e#7683#7888#0" />
@@ -1114,8 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud/smart-home-provider-cloud.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="479" column="34" lean-forward="true" selection-start-line="479" selection-start-column="34" selection-end-line="479" selection-end-column="34" />
+        <state relative-caret-position="135">
+          <caret line="407" column="7" lean-forward="true" selection-start-line="407" selection-start-column="7" selection-end-line="407" selection-end-column="7" />
           <folding>
             <element signature="e#1127#1361#0" />
             <element signature="e#1552#1722#0" />
@@ -1149,7 +1142,6 @@
             <element signature="e#6403#6520#0" />
             <element signature="e#6675#6792#0" />
             <element signature="e#6833#7146#0" />
-            <element signature="e#7209#8237#0" />
             <element signature="e#7365#7561#0" />
             <element signature="e#7396#7513#0" />
             <element signature="e#7683#7888#0" />

@@ -400,16 +400,16 @@ var mqtt = require('mqtt'), url = require('url');
 // Parse
 var mqtt_url = url.parse(process.env.CLOUDMQTT_URL || 'mqtt://localhost:1883');
 var auth = (mqtt_url.auth || ':').split(':');
-MqttClient.client = mqtt.connect(mqtt_url, {
-    username: auth[0],
-    password: auth[1]
-});
-
 
 app.sendMessage = function (message) {
+    MqttClient.client = mqtt.connect(mqtt_url, {
+        username: auth[0],
+        password: auth[1]
+    });
     console.log("****************" + JSON.stringify(message));
-    MqttClient.client.publish('/feeds/irSend', message, function() {
+    MqttClient.client.publish('/feeds/irSend', message, {qos:2}, function(err) {
         console.log("Published " + message + " to /feeds/irSend");
+        console.log("***************************" + err);
         MqttClient.client.end(); // Close the connection when published
     });
 };
