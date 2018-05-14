@@ -128,7 +128,7 @@ limitations under the License.
             <p id="progress-dialog-content"></p>
         </paper-dialog>
 
-        <paper-dialog id="modal" modal>
+        <!--<paper-dialog id="modal" modal>
             <div id="close">
                 <iron-icon icon="icons:close" dialog-confirm autofocus></iron-icon>
             </div>
@@ -167,7 +167,7 @@ limitations under the License.
                     <p>Refrigerator</p>
                 </button>
             </div>
-        </paper-dialog>
+        </paper-dialog>-->
 
 
         <paper-button on-tap="_sendMQTT" data-args="tv">On/Off TV</paper-button>
@@ -279,49 +279,14 @@ limitations under the License.
 
             ready: function () {
                 // Reset all user devices
-                this.lights = [{
-                    id: "1",
-                    properties : {
-                        type: 'action.devices.types.LIGHT',
-                        traits: [
-                            'action.devices.traits.OnOff',
-                            'action.devices.traits.Brightness',
-                            'action.devices.traits.ColorSpectrum'
-                        ],
-                        name: {
-                            defaultNames: ['Bose Soundbar'],
-                            name: 'Soundbar',
-                            nicknames: [ 'soundbar', 'speaker', 'speakers', 'sound' ]
-                        },
-                        willReportState: false,
-                        roomHint: '',
-                        deviceInfo: {
-                            manufacturer: 'Bose',
-                            model: 'g1337',
-                            swVersion: '1.0.11',
-                            hwVersion: '1.1'
-                        },
-                        customData: {
-                            smartHomeProviderId: 'FkldJVJCmDNSaoLkoq0txiz8Byf2Hr'
-                        }
-                    },
-                    states: {
-                        on: false,
-                        online: true,
-                        brightness: 80,
-                        color: {
-                            name: 'cerulean',
-                            spectrumRGB: 31655
-                        }
-                    }
-                }];
+                this.lights = [];
                 this.thermostats = [];
                 this.scenes = [];
                 this.cameras = [];
                 this.vacuums = [];
                 this.washers = [];
                 this.refrigerators = [];
-
+                this._getDevices(this);
                 window.requestAnimationFrame(() => {
                     this.$.add.addEventListener('click', e => this.$.modal.open());
                     this._auth()
@@ -965,6 +930,22 @@ limitations under the License.
                 };
                 if (opt_body) options.body = JSON.stringify(opt_body);
                 return fetch(SMART_HOME_PROVIDER_CLOUD_ENDPOINT + path, options);
+            },
+            _getDevices: function(app){
+                var devices = this._callSmartHomeProviderCloud('/getDevices', 'POST');
+                var json  = devices.then(function(data){
+                   return data.json();
+                }, function(error){
+                    console.error('got error'+ error);
+                });
+                json.then(function(data){
+                    console.log(data);
+                    data.forEach(function(device){
+                        app._addLight(null, device);
+                    });
+                });
+                console.log("json" + json);
+                return devices;
             }
         });
     </script>

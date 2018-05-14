@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9bb766e-d058-4aef-89da-cf8fc92fa46e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/datastore.js" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/datastore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud/smart-home-provider-cloud.js" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/smart-home-provider-cloud.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/my-app.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/my-app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/smart-light.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/smart-light.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,13 +24,36 @@
       <file leaf-file-name="my-app.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/my-app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="953" column="36" lean-forward="true" selection-start-line="953" selection-start-column="36" selection-end-line="953" selection-end-column="48" />
+            <state relative-caret-position="258">
+              <caret line="127" column="48" lean-forward="true" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
-                <element signature="n#paper-dialog#1;n#template#0;n#dom-module#0;n#!!top" />
-                <element signature="n#iron-list#0;n#template#0;n#dom-module#0;n#!!top" />
+                <element signature="e#4379#6605#0" />
+                <element signature="e#11789#12446#0" />
+                <element signature="e#13311#13429#0" />
+                <element signature="e#13466#14322#0" />
+                <element signature="e#14373#16565#0" />
+                <element signature="e#16597#17053#0" />
+                <element signature="e#17116#17335#0" />
+                <element signature="e#19685#22114#0" />
+                <element signature="e#22173#24556#0" />
+                <element signature="e#24605#26478#0" />
+                <element signature="e#26529#28545#0" />
+                <element signature="e#28597#32714#0" />
+                <element signature="e#32766#37759#0" />
+                <element signature="e#37823#40404#0" />
+                <element signature="e#40442#40809#0" />
+                <element signature="e#40875#41309#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/node-fetch/lib/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="1395" column="6" selection-start-line="1395" selection-start-column="6" selection-end-line="1395" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -34,10 +61,15 @@
       <file leaf-file-name="datastore.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud/datastore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="409" column="21" lean-forward="true" selection-start-line="409" selection-start-column="21" selection-end-line="409" selection-end-column="21" />
+            <state relative-caret-position="96">
+              <caret line="89" column="26" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="26" />
               <folding>
                 <element signature="e#587#1051#0" />
+                <element signature="e#2864#3064#0" />
+                <element signature="e#3092#3394#0" />
+                <element signature="e#3506#3706#0" />
+                <element signature="e#3876#4880#0" />
+                <element signature="e#4198#4493#0" />
                 <element signature="e#1116#1552#0" />
                 <element signature="e#1554#1764#0" />
                 <element signature="e#1791#2015#0" />
@@ -52,11 +84,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smart-light.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="smart-light.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/smart-light.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="147">
+              <caret line="70" column="91" lean-forward="true" selection-start-line="70" selection-start-column="91" selection-end-line="70" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shared-styles.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/shared-styles.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-596" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smart-device.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/smart-device.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="249" column="71" lean-forward="true" selection-start-line="249" selection-start-column="71" selection-end-line="249" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -64,17 +112,17 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="323">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smart-home-provider-cloud.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="smart-home-provider-cloud.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud/smart-home-provider-cloud.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="415" column="8" selection-start-line="415" selection-start-column="8" selection-end-line="415" selection-end-column="8" />
+            <state relative-caret-position="215">
+              <caret line="399" column="75" lean-forward="true" selection-start-line="399" selection-start-column="75" selection-end-line="399" selection-end-column="75" />
               <folding>
                 <element signature="e#1127#1361#0" />
                 <element signature="e#1552#1722#0" />
@@ -139,7 +187,7 @@
       <file leaf-file-name="smart-home-app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smart-home-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="8262">
               <caret line="497" column="93" selection-start-line="497" selection-start-column="93" selection-end-line="497" selection-end-column="93" />
             </state>
           </provider>
@@ -149,16 +197,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_addRefrigerator</find>
-      <find>hideNoDeviceMessage</find>
-      <find>execute-scene</find>
-      <find>register</find>
-      <find>remove</find>
       <find>remove-device</find>
       <find>call</find>
       <find>/smarthome</find>
       <find>user</find>
-      <find>auth</find>
       <find>_callSmartHomeProviderCloud</find>
       <find>smartHomeExec</find>
       <find>/smartho</find>
@@ -166,22 +208,29 @@
       <find>smarthom</find>
       <find>Deleting all devices</find>
       <find>regis</find>
-      <find>Data</find>
       <find>devic</find>
       <find>device</find>
       <find>smartHomeQuery</find>
       <find>process</find>
       <find>config</find>
-      <find>1234</find>
       <find>execDevice</find>
       <find>sendMessage</find>
       <find>irfan</find>
       <find>exec</find>
       <find>Device exe</find>
       <find>curExec</find>
+      <find>Data</find>
+      <find>auth</find>
+      <find>ready</find>
+      <find>push</find>
+      <find>incandescent</find>
+      <find>_handleBrightness</find>
+      <find>_addLi</find>
+      <find>1234</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
+      <dir>C:\Users\ACC10816\git\voice-remote</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -194,12 +243,12 @@
         <option value="$PROJECT_DIR$/cloud/config-provider.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/frontend/package.json" />
-        <option value="$PROJECT_DIR$/frontend/src/smart-light.html" />
         <option value="$PROJECT_DIR$/frontend/login.html" />
-        <option value="$PROJECT_DIR$/frontend/src/my-app.html" />
-        <option value="$PROJECT_DIR$/cloud/datastore.js" />
         <option value="$PROJECT_DIR$/smart-home-app.js" />
         <option value="$PROJECT_DIR$/cloud/smart-home-provider-cloud.js" />
+        <option value="$PROJECT_DIR$/frontend/src/my-app.html" />
+        <option value="$PROJECT_DIR$/cloud/datastore.js" />
+        <option value="$PROJECT_DIR$/frontend/src/smart-light.html" />
       </list>
     </option>
   </component>
@@ -272,42 +321,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="smart-home-provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-home-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-home-provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-home-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-home-provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-home-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-home-provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-home-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="voice-remote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voice-remote" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.js" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
@@ -615,6 +652,9 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Run App" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="index.js" working-dir="$PROJECT_DIR$" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -631,38 +671,62 @@
       <workItem from="1526007599064" duration="6111000" />
       <workItem from="1526051931753" duration="16751000" />
       <workItem from="1526244054709" duration="5460000" />
+      <workItem from="1526319450689" duration="8372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37491000" />
+    <option name="totallyTimeSpent" value="45863000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="-11" width="1859" height="1092" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972737" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.3295688" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32908458" />
       <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.32908458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.61198735" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5538818" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="5" visible="true" weight="0.39976826" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="REST Client" order="1" weight="0.33648792" />
+      <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Messages" order="0" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.32908458" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24960254" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="REST Client" order="1" weight="0.33648792" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" visible="true" weight="0.39976826" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5538818" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32908458" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -672,18 +736,167 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/frontend/src/my-app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14110">
+          <caret line="953" column="36" selection-start-line="953" selection-start-column="36" selection-end-line="953" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
+            <element signature="e#4379#6605#0" />
+            <element signature="e#11789#12446#0" />
+            <element signature="e#13311#13429#0" />
+            <element signature="e#13466#14322#0" />
+            <element signature="e#14373#16565#0" />
+            <element signature="e#16597#17053#0" />
+            <element signature="e#17116#17335#0" />
+            <element signature="e#19685#22114#0" />
+            <element signature="e#22173#24556#0" />
+            <element signature="e#24605#26478#0" />
+            <element signature="e#26529#28545#0" />
+            <element signature="e#28597#32714#0" />
+            <element signature="e#32766#37759#0" />
+            <element signature="e#37823#40404#0" />
+            <element signature="e#40442#40809#0" />
+            <element signature="e#40875#41309#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/datastore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6953">
+          <caret line="409" column="21" lean-forward="true" selection-start-line="409" selection-start-column="21" selection-end-line="409" selection-end-column="21" />
+          <folding>
+            <element signature="e#587#1051#0" />
+            <element signature="e#2864#3064#0" />
+            <element signature="e#3092#3394#0" />
+            <element signature="e#3506#3706#0" />
+            <element signature="e#3876#4880#0" />
+            <element signature="e#4198#4493#0" />
+            <element signature="e#1116#1552#0" />
+            <element signature="e#1554#1764#0" />
+            <element signature="e#1791#2015#0" />
+            <element signature="e#1811#1901#0" />
+            <element signature="e#1921#2011#0" />
+            <element signature="e#2191#3523#0" />
+            <element signature="e#3667#4619#0" />
+            <element signature="e#4638#4823#0" />
+            <element signature="e#4658#4819#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/smart-light.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-home-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8262">
+          <caret line="497" column="93" selection-start-line="497" selection-start-column="93" selection-end-line="497" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/smart-home-provider-cloud.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7055">
+          <caret line="415" column="8" selection-start-line="415" selection-start-column="8" selection-end-line="415" selection-end-column="8" />
+          <folding>
+            <element signature="e#1127#1361#0" />
+            <element signature="e#1552#1722#0" />
+            <element signature="e#1578#1626#0" />
+            <element signature="e#1849#2174#0" />
+            <element signature="e#2237#3060#0" />
+            <element signature="e#2372#2576#0" />
+            <element signature="e#2403#2520#0" />
+            <element signature="e#2667#2878#0" />
+            <element signature="e#2698#2815#0" />
+            <element signature="e#2912#3029#0" />
+            <element signature="e#3064#3397#0" />
+            <element signature="e#3471#4534#0" />
+            <element signature="e#3627#3886#0" />
+            <element signature="e#3721#3838#0" />
+            <element signature="e#4080#4289#0" />
+            <element signature="e#4111#4228#0" />
+            <element signature="e#4385#4502#0" />
+            <element signature="e#4538#4601#0" />
+            <element signature="e#4673#5597#0" />
+            <element signature="e#4829#5088#0" />
+            <element signature="e#4923#5040#0" />
+            <element signature="e#5121#5167#0" />
+            <element signature="e#5280#5383#0" />
+            <element signature="e#5443#5560#0" />
+            <element signature="e#5601#5721#0" />
+            <element signature="e#5793#6829#0" />
+            <element signature="e#5949#6208#0" />
+            <element signature="e#6043#6160#0" />
+            <element signature="e#6372#6579#0" />
+            <element signature="e#6403#6520#0" />
+            <element signature="e#6675#6792#0" />
+            <element signature="e#6833#7146#0" />
+            <element signature="e#7365#7561#0" />
+            <element signature="e#7396#7513#0" />
+            <element signature="e#7683#7888#0" />
+            <element signature="e#7714#7831#0" />
+            <element signature="e#7922#8030#0" />
+            <element signature="e#8090#8207#0" />
+            <element signature="e#8311#8638#0" />
+            <element signature="e#8456#8579#0" />
+            <element signature="e#8642#9045#0" />
+            <element signature="e#9315#9511#0" />
+            <element signature="e#9346#9463#0" />
+            <element signature="e#9585#9789#0" />
+            <element signature="e#9616#9733#0" />
+            <element signature="e#9849#9966#0" />
+            <element signature="e#9993#10078#0" />
+            <element signature="e#10163#10706#0" />
+            <element signature="e#10349#10582#0" />
+            <element signature="e#10657#10702#0" />
+            <element signature="e#10809#11499#0" />
+            <element signature="e#10816#10867#0" />
+            <element signature="e#10928#11001#0" />
+            <element signature="e#11075#11321#0" />
+            <element signature="e#11327#11497#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/my-app.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9720">
           <caret line="648" column="17" lean-forward="true" selection-start-line="648" selection-start-column="17" selection-end-line="648" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
-            <element signature="n#paper-dialog#1;n#template#0;n#dom-module#0;n#!!top" />
-            <element signature="n#iron-list#0;n#template#0;n#dom-module#0;n#!!top" />
+            <element signature="e#4379#6605#0" />
+            <element signature="e#11789#12446#0" />
+            <element signature="e#13311#13429#0" />
+            <element signature="e#13466#14322#0" />
+            <element signature="e#14373#16565#0" />
+            <element signature="e#16597#17053#0" />
+            <element signature="e#17116#17335#0" />
+            <element signature="e#19685#22114#0" />
+            <element signature="e#22173#24556#0" />
+            <element signature="e#24605#26478#0" />
+            <element signature="e#26529#28545#0" />
+            <element signature="e#28597#32714#0" />
+            <element signature="e#32766#37759#0" />
+            <element signature="e#37823#40404#0" />
+            <element signature="e#40442#40809#0" />
+            <element signature="e#40875#41309#0" />
           </folding>
         </state>
       </provider>
@@ -694,6 +907,11 @@
           <caret lean-forward="true" />
           <folding>
             <element signature="e#587#1051#0" />
+            <element signature="e#2864#3064#0" />
+            <element signature="e#3092#3394#0" />
+            <element signature="e#3506#3706#0" />
+            <element signature="e#3876#4880#0" />
+            <element signature="e#4198#4493#0" />
             <element signature="e#1116#1552#0" />
             <element signature="e#1554#1764#0" />
             <element signature="e#1791#2015#0" />
@@ -798,8 +1016,22 @@
           <caret line="411" column="55" selection-start-line="411" selection-start-column="55" selection-end-line="411" selection-end-column="55" />
           <folding>
             <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
-            <element signature="n#paper-dialog#1;n#template#0;n#dom-module#0;n#!!top" />
-            <element signature="n#iron-list#0;n#template#0;n#dom-module#0;n#!!top" />
+            <element signature="e#4379#6605#0" />
+            <element signature="e#11789#12446#0" />
+            <element signature="e#13311#13429#0" />
+            <element signature="e#13466#14322#0" />
+            <element signature="e#14373#16565#0" />
+            <element signature="e#16597#17053#0" />
+            <element signature="e#17116#17335#0" />
+            <element signature="e#19685#22114#0" />
+            <element signature="e#22173#24556#0" />
+            <element signature="e#24605#26478#0" />
+            <element signature="e#26529#28545#0" />
+            <element signature="e#28597#32714#0" />
+            <element signature="e#32766#37759#0" />
+            <element signature="e#37823#40404#0" />
+            <element signature="e#40442#40809#0" />
+            <element signature="e#40875#41309#0" />
           </folding>
         </state>
       </provider>
@@ -810,6 +1042,11 @@
           <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#587#1051#0" />
+            <element signature="e#2864#3064#0" />
+            <element signature="e#3092#3394#0" />
+            <element signature="e#3506#3706#0" />
+            <element signature="e#3876#4880#0" />
+            <element signature="e#4198#4493#0" />
             <element signature="e#1116#1552#0" />
             <element signature="e#1554#1764#0" />
             <element signature="e#1791#2015#0" />
@@ -914,8 +1151,22 @@
           <caret line="471" selection-start-line="471" selection-end-line="471" />
           <folding>
             <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
-            <element signature="n#paper-dialog#1;n#template#0;n#dom-module#0;n#!!top" />
-            <element signature="n#iron-list#0;n#template#0;n#dom-module#0;n#!!top" />
+            <element signature="e#4379#6605#0" />
+            <element signature="e#11789#12446#0" />
+            <element signature="e#13311#13429#0" />
+            <element signature="e#13466#14322#0" />
+            <element signature="e#14373#16565#0" />
+            <element signature="e#16597#17053#0" />
+            <element signature="e#17116#17335#0" />
+            <element signature="e#19685#22114#0" />
+            <element signature="e#22173#24556#0" />
+            <element signature="e#24605#26478#0" />
+            <element signature="e#26529#28545#0" />
+            <element signature="e#28597#32714#0" />
+            <element signature="e#32766#37759#0" />
+            <element signature="e#37823#40404#0" />
+            <element signature="e#40442#40809#0" />
+            <element signature="e#40875#41309#0" />
           </folding>
         </state>
       </provider>
@@ -926,6 +1177,11 @@
           <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
           <folding>
             <element signature="e#587#1051#0" />
+            <element signature="e#2864#3064#0" />
+            <element signature="e#3092#3394#0" />
+            <element signature="e#3506#3706#0" />
+            <element signature="e#3876#4880#0" />
+            <element signature="e#4198#4493#0" />
             <element signature="e#1116#1552#0" />
             <element signature="e#1554#1764#0" />
             <element signature="e#1791#2015#0" />
@@ -959,8 +1215,22 @@
           <caret line="471" lean-forward="true" selection-start-line="471" selection-end-line="471" />
           <folding>
             <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
-            <element signature="n#paper-dialog#1;n#template#0;n#dom-module#0;n#!!top" />
-            <element signature="n#iron-list#0;n#template#0;n#dom-module#0;n#!!top" />
+            <element signature="e#4379#6605#0" />
+            <element signature="e#11789#12446#0" />
+            <element signature="e#13311#13429#0" />
+            <element signature="e#13466#14322#0" />
+            <element signature="e#14373#16565#0" />
+            <element signature="e#16597#17053#0" />
+            <element signature="e#17116#17335#0" />
+            <element signature="e#19685#22114#0" />
+            <element signature="e#22173#24556#0" />
+            <element signature="e#24605#26478#0" />
+            <element signature="e#26529#28545#0" />
+            <element signature="e#28597#32714#0" />
+            <element signature="e#32766#37759#0" />
+            <element signature="e#37823#40404#0" />
+            <element signature="e#40442#40809#0" />
+            <element signature="e#40875#41309#0" />
           </folding>
         </state>
       </provider>
@@ -971,6 +1241,11 @@
           <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
           <folding>
             <element signature="e#587#1051#0" />
+            <element signature="e#2864#3064#0" />
+            <element signature="e#3092#3394#0" />
+            <element signature="e#3506#3706#0" />
+            <element signature="e#3876#4880#0" />
+            <element signature="e#4198#4493#0" />
             <element signature="e#1116#1552#0" />
             <element signature="e#1554#1764#0" />
             <element signature="e#1791#2015#0" />
@@ -1005,14 +1280,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mqtt/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mqtt/README.md" />
     <entry file="file://$PROJECT_DIR$/cloud/auth-provider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4815">
@@ -1042,13 +1310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/smart-device.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="272" column="24" lean-forward="true" selection-start-line="272" selection-start-column="24" selection-end-line="272" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud/config-provider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1056,62 +1317,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/smart-light.html">
+    <entry file="file://$PROJECT_DIR$/smart-home-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        <state relative-caret-position="8262">
+          <caret line="497" column="93" selection-start-line="497" selection-start-column="93" selection-end-line="497" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="15346" column="17" selection-start-line="15346" selection-start-column="17" selection-end-line="15346" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/node-fetch/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="1395" column="6" selection-start-line="1395" selection-start-column="6" selection-end-line="1395" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="323">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud/datastore.js">
+    <entry file="file://$PROJECT_DIR$/frontend/src/smart-device.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="409" column="21" lean-forward="true" selection-start-line="409" selection-start-column="21" selection-end-line="409" selection-end-column="21" />
-          <folding>
-            <element signature="e#587#1051#0" />
-            <element signature="e#1116#1552#0" />
-            <element signature="e#1554#1764#0" />
-            <element signature="e#1791#2015#0" />
-            <element signature="e#1811#1901#0" />
-            <element signature="e#1921#2011#0" />
-            <element signature="e#2191#3523#0" />
-            <element signature="e#3667#4619#0" />
-            <element signature="e#4638#4823#0" />
-            <element signature="e#4658#4819#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/my-app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="953" column="36" lean-forward="true" selection-start-line="953" selection-start-column="36" selection-end-line="953" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
-            <element signature="n#paper-dialog#1;n#template#0;n#dom-module#0;n#!!top" />
-            <element signature="n#iron-list#0;n#template#0;n#dom-module#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-home-app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="497" column="93" selection-start-line="497" selection-start-column="93" selection-end-line="497" selection-end-column="93" />
+        <state relative-caret-position="175">
+          <caret line="249" column="71" lean-forward="true" selection-start-line="249" selection-start-column="71" selection-end-line="249" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud/smart-home-provider-cloud.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="415" column="8" selection-start-line="415" selection-start-column="8" selection-end-line="415" selection-end-column="8" />
+        <state relative-caret-position="215">
+          <caret line="399" column="75" lean-forward="true" selection-start-line="399" selection-start-column="75" selection-end-line="399" selection-end-column="75" />
           <folding>
             <element signature="e#1127#1361#0" />
             <element signature="e#1552#1722#0" />
@@ -1169,6 +1413,68 @@
             <element signature="e#11075#11321#0" />
             <element signature="e#11327#11497#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/shared-styles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-596" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/my-app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="127" column="48" lean-forward="true" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
+            <element signature="e#4379#6605#0" />
+            <element signature="e#11789#12446#0" />
+            <element signature="e#13311#13429#0" />
+            <element signature="e#13466#14322#0" />
+            <element signature="e#14373#16565#0" />
+            <element signature="e#16597#17053#0" />
+            <element signature="e#17116#17335#0" />
+            <element signature="e#19685#22114#0" />
+            <element signature="e#22173#24556#0" />
+            <element signature="e#24605#26478#0" />
+            <element signature="e#26529#28545#0" />
+            <element signature="e#28597#32714#0" />
+            <element signature="e#32766#37759#0" />
+            <element signature="e#37823#40404#0" />
+            <element signature="e#40442#40809#0" />
+            <element signature="e#40875#41309#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/datastore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="89" column="26" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="26" />
+          <folding>
+            <element signature="e#587#1051#0" />
+            <element signature="e#2864#3064#0" />
+            <element signature="e#3092#3394#0" />
+            <element signature="e#3506#3706#0" />
+            <element signature="e#3876#4880#0" />
+            <element signature="e#4198#4493#0" />
+            <element signature="e#1116#1552#0" />
+            <element signature="e#1554#1764#0" />
+            <element signature="e#1791#2015#0" />
+            <element signature="e#1811#1901#0" />
+            <element signature="e#1921#2011#0" />
+            <element signature="e#2191#3523#0" />
+            <element signature="e#3667#4619#0" />
+            <element signature="e#4638#4823#0" />
+            <element signature="e#4658#4819#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/smart-light.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="70" column="91" lean-forward="true" selection-start-line="70" selection-start-column="91" selection-end-line="70" selection-end-column="91" />
         </state>
       </provider>
     </entry>

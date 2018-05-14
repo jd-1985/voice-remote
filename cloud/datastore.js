@@ -37,7 +37,121 @@
  */
 
 const config = require('./config-provider');
-const Data = {};
+const Data = {
+
+    "1234": {
+        uid: "1234",
+        devices: {
+            "1": {
+                id: "1",
+                properties: {
+                    type: 'action.devices.types.OUTLET',
+                    traits: [
+                        'action.devices.traits.OnOff',
+                        'action.devices.traits.Brightness',
+                        'action.devices.traits.ColorSpectrum'
+                    ],
+                    name: {
+                        defaultNames: [
+                            'Bose Soundbar'
+                        ],
+                        name: 'Soundbar',
+                        nicknames: [
+                            'soundbar',
+                            'speaker',
+                            'speakers',
+                            'sound'
+                        ]
+                    },
+                    willReportState: false,
+                    roomHint: '',
+                    deviceInfo: {
+                        manufacturer: 'Bose',
+                        model: 'g1337',
+                        swVersion: '1.0.11',
+                        hwVersion: '1.1'
+                    },
+                    customData: {
+                        smartHomeProviderId: 'FkldJVJCmDNSaoLkoq0txiz8Byf2Hr'
+                    }
+                },
+                states: {
+                    on: false,
+                    online: true,
+                    brightness: 80,
+                    color: {
+                        name: 'cerulean',
+                        spectrumRGB: 31655
+                    }
+                }
+            },
+            "2": {
+                id: "2",
+                properties: {
+                    type: 'action.devices.types.OUTLET',
+                    traits: [
+                        'action.devices.traits.OnOff',
+                        'action.devices.traits.Modes'/*,
+                        'action.devices.traits.ColorSpectrum'*/
+                    ],
+                    name: {
+                        defaultNames: [
+                            'Sony TY'
+                        ],
+                        name: 'TV',
+                        nicknames: [
+                            'television',
+                            'tv'
+                        ]
+                    },
+                    willReportState: false,
+                    roomHint: '',
+                    deviceInfo: {
+                        manufacturer: 'Sony',
+                        model: 'XBR55X850D',
+                        swVersion: '1.0.11',
+                        hwVersion: '1.1'
+                    },
+                    customData: {
+                        smartHomeProviderId: 'FkldJVJCmDNSaoLkoq0txiz8Byf2Hr'
+                    },
+                    attributes: {
+                        availableModes: [{
+                            name: "load",
+                            name_values: [{
+                                name_synonym: ["load", "size", "load size"],
+                                lang: "en"
+                            }],
+                            /*settings: [{
+                                setting_name: "small",
+                                setting_values: [{
+                                    setting_synonym: ["small", "half"],
+                                    lang: "en"
+                                }]
+                            }, {
+                                setting_name: "large ",
+                                setting_values: [{
+                                    setting_synonym: ["large", "full"],
+                                    lang: "en"
+                                }]
+                            }],*/
+                            ordered: true
+                        }]
+                    }
+                },
+                states: {
+                    on: false,
+                    online: true,
+                    brightness: 80,
+                    color: {
+                        name: 'cerulean',
+                        spectrumRGB: 31655
+                    }
+                }
+            }
+        }
+    }
+};
 
 /**
  * Structure of Auth

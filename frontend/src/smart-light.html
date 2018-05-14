@@ -15,7 +15,8 @@ limitations under the License.
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
-<link rel="import" href="../bower_components/iron-icons/image-icons.html">
+<link rel="import" href="../bower_components/iron-icons/av-icons.html">
+<link rel="import" href="../bower_components/iron-icons/hardware-icons.html">
 <link rel="import" href="../bower_components/paper-button/paper-button.html">
 <link rel="import" href="../bower_components/paper-dropdown-menu/paper-dropdown-menu.html">
 <link rel="import" href="../bower_components/paper-input/paper-input.html">
@@ -65,10 +66,10 @@ limitations under the License.
             _deviceChanged() {
                 super._deviceChanged();
 
-                if (this.device.states.color.spectrumRGB) {
-                    this.$.light.icon = "image:wb-incandescent"
+                if (this.device.properties.attributes && this.device.properties.attributes.availableModes) {
+                    this.$.light.icon = "hardware:tv"
                 } else {
-                    this.$.light.icon = "image:wb-iridescent"
+                    this.$.light.icon = "av:surround-sound"
                 }
 
                 if (this.device.states.on

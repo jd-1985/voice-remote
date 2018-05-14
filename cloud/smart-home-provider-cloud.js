@@ -392,6 +392,15 @@ app.get('/getauthcode', function (req, resp) {
   }
 });
 
+app.post('/smart-home-api/getDevices', function(request, response){
+  var uid = "1234";
+  var devices = datastore.getUid(uid).devices;
+  var deviceArray = Object.keys(devices).map(i => devices[i]);
+  console.log('/GET smart-home-api/getDevices devices:' + devices);
+  console.log('/GET smart-home-api/getDevices deviceArray:' + deviceArray);
+  response.status(200).json(deviceArray);
+});
+
 /* @@@@@@@@@@@@@@@@@@@@@@@@ MQTT Code Here @@@@@@@@@@@@@@@@@@@@@@@ */
 
 const MqttClient = {};
@@ -429,9 +438,7 @@ app.post('/smart-home-api/getDevices', function (request, response) {
     let uid = datastore.Auth.tokens[authToken].uid;
     var devices = datastore.Data;
     response.status(200)
-        .send(devices);
-
-
+        .set(devices);
 });
 
 
