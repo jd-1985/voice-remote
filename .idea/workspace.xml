@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9bb766e-d058-4aef-89da-cf8fc92fa46e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/frontend/src/smart-light.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/smart-light.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-home-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/smart-home-app.js" afterDir="false" />
-    </list>
+    <list default="true" id="f9bb766e-d058-4aef-89da-cf8fc92fa46e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -30,8 +27,8 @@
       <file leaf-file-name="datastore.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud/datastore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="102" column="19" lean-forward="true" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
+            <state relative-caret-position="15">
+              <caret line="90" column="30" lean-forward="true" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -60,8 +57,8 @@
       <file leaf-file-name="smart-home-provider-cloud.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud/smart-home-provider-cloud.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="491" column="14" selection-start-line="491" selection-start-column="8" selection-end-line="491" selection-end-column="14" />
+            <state relative-caret-position="171">
+              <caret line="492" column="29" lean-forward="true" selection-start-line="492" selection-start-column="29" selection-end-line="492" selection-end-column="29" />
               <folding>
                 <element signature="e#1127#1361#0" />
                 <element signature="e#1552#1722#0" />
@@ -126,8 +123,8 @@
       <file leaf-file-name="smart-home-app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smart-home-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="500" column="37" selection-start-line="500" selection-start-column="37" selection-end-line="500" selection-end-column="37" />
+            <state relative-caret-position="261">
+              <caret line="527" column="42" lean-forward="true" selection-start-line="527" selection-start-column="42" selection-end-line="527" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -164,8 +161,8 @@
       <find>_handleBrightness</find>
       <find>_addLi</find>
       <find>1234</find>
-      <find>sendme</find>
       <find>sendM</find>
+      <find>sendme</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -183,11 +180,11 @@
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/frontend/package.json" />
         <option value="$PROJECT_DIR$/frontend/login.html" />
-        <option value="$PROJECT_DIR$/cloud/smart-home-provider-cloud.js" />
         <option value="$PROJECT_DIR$/frontend/src/my-app.html" />
         <option value="$PROJECT_DIR$/cloud/datastore.js" />
         <option value="$PROJECT_DIR$/frontend/src/smart-light.html" />
         <option value="$PROJECT_DIR$/smart-home-app.js" />
+        <option value="$PROJECT_DIR$/cloud/smart-home-provider-cloud.js" />
       </list>
     </option>
   </component>
@@ -627,12 +624,12 @@
       <workItem from="1526051931753" duration="16751000" />
       <workItem from="1526244054709" duration="5460000" />
       <workItem from="1526319450689" duration="8372000" />
-      <workItem from="1526347126108" duration="343000" />
+      <workItem from="1526347126108" duration="724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46815000" />
+    <option name="totallyTimeSpent" value="47196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="-11" width="1859" height="1092" extended-state="6" />
@@ -1266,8 +1263,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud/smart-home-provider-cloud.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="491" column="14" selection-start-line="491" selection-start-column="8" selection-end-line="491" selection-end-column="14" />
+        <state relative-caret-position="171">
+          <caret line="492" column="29" lean-forward="true" selection-start-line="492" selection-start-column="29" selection-end-line="492" selection-end-column="29" />
           <folding>
             <element signature="e#1127#1361#0" />
             <element signature="e#1552#1722#0" />
@@ -1330,8 +1327,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud/datastore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="102" column="19" lean-forward="true" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
+        <state relative-caret-position="15">
+          <caret line="90" column="30" lean-forward="true" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1340,8 +1337,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smart-home-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="500" column="37" selection-start-line="500" selection-start-column="37" selection-end-line="500" selection-end-column="37" />
+        <state relative-caret-position="261">
+          <caret line="527" column="42" lean-forward="true" selection-start-line="527" selection-start-column="42" selection-end-line="527" selection-end-column="42" />
         </state>
       </provider>
     </entry>
