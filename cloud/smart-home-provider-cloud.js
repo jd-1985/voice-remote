@@ -489,6 +489,13 @@ app.smartHomeExec = function (uid, device) {
   datastore.execDevice(uid, device);
   console.log('smartHomeExec executedDevice Irfan', JSON.stringify(device));
   let executedDevice = datastore.getStatus(uid, [device.id]);
+    if(device) {
+        if(device.id == "1"){
+            app.sendMessage("NEC:5D0532CD");
+        } else if(device.id == "2"){
+            app.sendMessage("SONY:A90");
+        }
+    }
   //app.sendMessage("NEC:5D0532CD");
   console.log('smartHomeExec executedDevice', JSON.stringify(executedDevice));
   return executedDevice;
