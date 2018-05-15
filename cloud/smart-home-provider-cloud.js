@@ -414,39 +414,40 @@ function connetMQTT() {
         username: auth[0],
         password: auth[1]
     });
+    /** Emitted on successful connection */
+    app.mqttClient.on('connect', function() {
+        console.log("[MQTT] Connected to MQTT server");
+        app.mqttConnected = true;
+        app.mqttClient.subscribe('reply');
+    });
+
+    /** Emitted on connection error */
+    app.mqttClient.on('error', function() {
+        console.log("[MQTT] MQTT Error");
+        app.mqttConnected = false;
+    });
+
+    /** Emitted on connection offline status */
+    app.mqttClient.on('offline', function() {
+        console.log("[MQTT] Connection offline");
+        app.mqttConnected = false;
+    });
+
 };
 
-/** Emitted on successful connection */
-app.mqttClient.on('connect', function() {
-    console.log("[MQTT] Connected to MQTT server");
-    app.mqttConnected = true;
-    app.mqttClient.subscribe('reply');
-});
-
-/** Emitted on connection error */
-app.mqttClient.on('error', function() {
-    console.log("[MQTT] MQTT Error");
-    app.mqttConnected = false;
-});
-
-/** Emitted on connection offline status */
-app.mqttClient.on('offline', function() {
-    console.log("[MQTT] Connection offline");
-    app.mqttConnected = false;
-});
 
 app.sendMessage = function (message) {
   if(!app.mqttConnected){
     connetMQTT();
   }
     console.log("****************" + JSON.stringify(message));
-    client.publish('/feeds/irSend', message, {qos:2}, function(err) {
+    app.mqttClient.publish('/feeds/irSend', message, {qos:2}, function(err) {
       if(err){
           console.log("Successfully Published " + message + " to /feeds/irSend");
       } else {
           console.log("Error occurred***************************" + err);
       }
-        client.end(); // Close the connection when published
+        //client.end(); // Close the connection when published
     });
 };
 
@@ -513,13 +514,6 @@ app.smartHomeExec = function (uid, device) {
   datastore.execDevice(uid, device);
   console.log('smartHomeExec executedDevice Irfan', JSON.stringify(device));
   let executedDevice = datastore.getStatus(uid, [device.id]);
-    if(device) {
-        if(device.id == "1"){
-            app.sendMessage("NEC:5D0532CD");
-        } else if(device.id == "2"){
-            app.sendMessage("SONY:A90");
-        }
-    }
   //app.sendMessage("NEC:5D0532CD");
   console.log('smartHomeExec executedDevice', JSON.stringify(executedDevice));
   return executedDevice;
