@@ -55,12 +55,12 @@ const Data = {
                         defaultNames: [
                             'Bose Soundbar'
                         ],
-                        name: 'Soundbar',
+                        name: 'Bose Soundbar',
                         nicknames: [
-                            'soundbar',
                             'speaker',
                             'speakers',
-                            'sound'
+                            'sound',
+                            'soundbar',
                         ]
                     },
                     willReportState: false,
