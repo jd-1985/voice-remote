@@ -84,15 +84,15 @@ const Data = {
                         spectrumRGB: 31655
                     }
                 }
-            },
+            }/*,
             "2": {
                 id: "2",
                 properties: {
                     type: 'action.devices.types.OUTLET',
                     traits: [
                         'action.devices.traits.OnOff',
-                        'action.devices.traits.Modes'/*,
-                        'action.devices.traits.ColorSpectrum'*/
+                        'action.devices.traits.Modes'/!*,
+                        'action.devices.traits.ColorSpectrum'*!/
                     ],
                     name: {
                         defaultNames: [
@@ -121,7 +121,7 @@ const Data = {
                                 name_synonym: ["load", "size", "load size"],
                                 lang: "en"
                             }],
-                            /*settings: [{
+                            /!*settings: [{
                                 setting_name: "small",
                                 setting_values: [{
                                     setting_synonym: ["small", "half"],
@@ -133,7 +133,7 @@ const Data = {
                                     setting_synonym: ["large", "full"],
                                     lang: "en"
                                 }]
-                            }],*/
+                            }],*!/
                             ordered: true
                         }]
                     }
@@ -147,7 +147,7 @@ const Data = {
                         spectrumRGB: 31655
                     }
                 }
-            }
+            }*/
         }
     }
 };
