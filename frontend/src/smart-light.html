@@ -47,7 +47,12 @@ limitations under the License.
                 if (this.device) {
                     this.device.states.on = !this.device.states.on;
                     var request = {};
-                    request.code = "NEC:5D0532CD";
+
+                    if (this.device.properties.attributes && this.device.properties.attributes.availableModes) {
+                        request.code = "SONY:A90";
+                    } else {
+                        request.code = "NEC:5D0532CD";
+                    }
                     this._callSmartHomeProviderCloud('/sendMessage', 'POST', request);
                     this._notifyStateChange();
                 }

@@ -494,7 +494,13 @@ function registerAgent(app) {
    * }
    */
   function execDevice(uid, command, device) {
-      app.sendMessage("NEC:5D0532CD");
+      if(device) {
+        if(device.id == "1"){
+            app.sendMessage("NEC:5D0532CD");
+        } else if(device.id == "2"){
+            app.sendMessage("SONY:A90");
+        }
+      }
       console.log("execDevice Irfan for uid:" + uid + ", command:" + command + ", device:" + device);
     let curDevice = {
       id: device.id,

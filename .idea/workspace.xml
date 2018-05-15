@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9bb766e-d058-4aef-89da-cf8fc92fa46e" name="Default" comment="" />
+    <list default="true" id="f9bb766e-d058-4aef-89da-cf8fc92fa46e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/frontend/src/smart-light.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/smart-light.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-home-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/smart-home-app.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,14 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="my-app.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="my-app.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/my-app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="951" column="13" selection-start-line="951" selection-start-column="13" selection-end-line="951" selection-end-column="13" />
-              <folding>
-                <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="909" column="23" lean-forward="true" selection-start-line="909" selection-start-column="23" selection-end-line="909" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -30,19 +30,10 @@
       <file leaf-file-name="datastore.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud/datastore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="323">
+              <caret line="102" column="19" lean-forward="true" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#587#1051#0" />
-                <element signature="e#1116#1552#0" />
-                <element signature="e#1554#1764#0" />
-                <element signature="e#1791#2015#0" />
-                <element signature="e#1811#1901#0" />
-                <element signature="e#1921#2011#0" />
-                <element signature="e#2191#3523#0" />
-                <element signature="e#3667#4619#0" />
-                <element signature="e#4638#4823#0" />
-                <element signature="e#4658#4819#0" />
               </folding>
             </state>
           </provider>
@@ -51,8 +42,8 @@
       <file leaf-file-name="smart-light.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/smart-light.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="180">
+              <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -69,8 +60,8 @@
       <file leaf-file-name="smart-home-provider-cloud.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud/smart-home-provider-cloud.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="483" column="17" selection-start-line="483" selection-start-column="17" selection-end-line="483" selection-end-column="17" />
+            <state relative-caret-position="112">
+              <caret line="491" column="14" selection-start-line="491" selection-start-column="8" selection-end-line="491" selection-end-column="14" />
               <folding>
                 <element signature="e#1127#1361#0" />
                 <element signature="e#1552#1722#0" />
@@ -132,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smart-home-app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="smart-home-app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smart-home-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="497" column="93" selection-start-line="497" selection-start-column="93" selection-end-line="497" selection-end-column="93" />
+            <state relative-caret-position="172">
+              <caret line="500" column="37" selection-start-line="500" selection-start-column="37" selection-end-line="500" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -145,8 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>remove-device</find>
-      <find>call</find>
       <find>/smarthome</find>
       <find>user</find>
       <find>_callSmartHomeProviderCloud</find>
@@ -175,6 +164,8 @@
       <find>_handleBrightness</find>
       <find>_addLi</find>
       <find>1234</find>
+      <find>sendme</find>
+      <find>sendM</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -192,11 +183,11 @@
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/frontend/package.json" />
         <option value="$PROJECT_DIR$/frontend/login.html" />
-        <option value="$PROJECT_DIR$/smart-home-app.js" />
         <option value="$PROJECT_DIR$/cloud/smart-home-provider-cloud.js" />
         <option value="$PROJECT_DIR$/frontend/src/my-app.html" />
         <option value="$PROJECT_DIR$/cloud/datastore.js" />
         <option value="$PROJECT_DIR$/frontend/src/smart-light.html" />
+        <option value="$PROJECT_DIR$/smart-home-app.js" />
       </list>
     </option>
   </component>
@@ -636,72 +627,61 @@
       <workItem from="1526051931753" duration="16751000" />
       <workItem from="1526244054709" duration="5460000" />
       <workItem from="1526319450689" duration="8372000" />
+      <workItem from="1526347126108" duration="343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46472000" />
+    <option name="totallyTimeSpent" value="46815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="-11" width="1859" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972737" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24918212" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.3295688" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.61198735" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32908458" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.32908458" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5538818" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.553102" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.39976826" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="REST Client" order="1" weight="0.33648792" />
-      <window_info active="true" anchor="bottom" id="Debug" order="5" visible="true" weight="0.39976826" />
+      <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info id="Favorites" order="3" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32908458" />
+      <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.32908458" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24960254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info anchor="bottom" id="REST Client" order="1" weight="0.33648792" />
-      <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="bottom" id="Debug" order="5" visible="true" weight="0.39976826" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.5538818" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32908458" />
+      <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24960254" />
+      <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -743,16 +723,6 @@
           <caret line="409" column="21" lean-forward="true" selection-start-line="409" selection-start-column="21" selection-end-line="409" selection-end-column="21" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#587#1051#0" />
-            <element signature="e#1116#1552#0" />
-            <element signature="e#1554#1764#0" />
-            <element signature="e#1791#2015#0" />
-            <element signature="e#1811#1901#0" />
-            <element signature="e#1921#2011#0" />
-            <element signature="e#2191#3523#0" />
-            <element signature="e#3667#4619#0" />
-            <element signature="e#4638#4823#0" />
-            <element signature="e#4658#4819#0" />
           </folding>
         </state>
       </provider>
@@ -761,9 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="953" column="36" lean-forward="true" selection-start-line="953" selection-start-column="36" selection-end-line="953" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -842,9 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14110">
           <caret line="953" column="36" selection-start-line="953" selection-start-column="36" selection-end-line="953" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,16 +818,6 @@
           <caret line="409" column="21" lean-forward="true" selection-start-line="409" selection-start-column="21" selection-end-line="409" selection-end-column="21" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#587#1051#0" />
-            <element signature="e#1116#1552#0" />
-            <element signature="e#1554#1764#0" />
-            <element signature="e#1791#2015#0" />
-            <element signature="e#1811#1901#0" />
-            <element signature="e#1921#2011#0" />
-            <element signature="e#2191#3523#0" />
-            <element signature="e#3667#4619#0" />
-            <element signature="e#4638#4823#0" />
-            <element signature="e#4658#4819#0" />
           </folding>
         </state>
       </provider>
@@ -957,9 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9720">
           <caret line="648" column="17" lean-forward="true" selection-start-line="648" selection-start-column="17" selection-end-line="648" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,16 +920,6 @@
           <caret lean-forward="true" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#587#1051#0" />
-            <element signature="e#1116#1552#0" />
-            <element signature="e#1554#1764#0" />
-            <element signature="e#1791#2015#0" />
-            <element signature="e#1811#1901#0" />
-            <element signature="e#1921#2011#0" />
-            <element signature="e#2191#3523#0" />
-            <element signature="e#3667#4619#0" />
-            <element signature="e#4638#4823#0" />
-            <element signature="e#4658#4819#0" />
           </folding>
         </state>
       </provider>
@@ -1072,9 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4320">
           <caret line="411" column="55" selection-start-line="411" selection-start-column="55" selection-end-line="411" selection-end-column="55" />
-          <folding>
-            <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1084,16 +1022,6 @@
           <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#587#1051#0" />
-            <element signature="e#1116#1552#0" />
-            <element signature="e#1554#1764#0" />
-            <element signature="e#1791#2015#0" />
-            <element signature="e#1811#1901#0" />
-            <element signature="e#1921#2011#0" />
-            <element signature="e#2191#3523#0" />
-            <element signature="e#3667#4619#0" />
-            <element signature="e#4638#4823#0" />
-            <element signature="e#4658#4819#0" />
           </folding>
         </state>
       </provider>
@@ -1187,9 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7065">
           <caret line="471" selection-start-line="471" selection-end-line="471" />
-          <folding>
-            <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1199,16 +1124,6 @@
           <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#587#1051#0" />
-            <element signature="e#1116#1552#0" />
-            <element signature="e#1554#1764#0" />
-            <element signature="e#1791#2015#0" />
-            <element signature="e#1811#1901#0" />
-            <element signature="e#1921#2011#0" />
-            <element signature="e#2191#3523#0" />
-            <element signature="e#3667#4619#0" />
-            <element signature="e#4638#4823#0" />
-            <element signature="e#4658#4819#0" />
           </folding>
         </state>
       </provider>
@@ -1231,9 +1146,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7065">
           <caret line="471" lean-forward="true" selection-start-line="471" selection-end-line="471" />
-          <folding>
-            <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1243,16 +1155,6 @@
           <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#587#1051#0" />
-            <element signature="e#1116#1552#0" />
-            <element signature="e#1554#1764#0" />
-            <element signature="e#1791#2015#0" />
-            <element signature="e#1811#1901#0" />
-            <element signature="e#1921#2011#0" />
-            <element signature="e#2191#3523#0" />
-            <element signature="e#3667#4619#0" />
-            <element signature="e#4638#4823#0" />
-            <element signature="e#4658#4819#0" />
           </folding>
         </state>
       </provider>
@@ -1315,13 +1217,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-home-app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="497" column="93" selection-start-line="497" selection-start-column="93" selection-end-line="497" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -1350,10 +1245,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/shared-styles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-596" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/smart-light.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/my-app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="909" column="23" lean-forward="true" selection-start-line="909" selection-start-column="23" selection-end-line="909" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud/smart-home-provider-cloud.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="483" column="17" selection-start-line="483" selection-start-column="17" selection-end-line="483" selection-end-column="17" />
+        <state relative-caret-position="112">
+          <caret line="491" column="14" selection-start-line="491" selection-start-column="8" selection-end-line="491" selection-end-column="14" />
           <folding>
             <element signature="e#1127#1361#0" />
             <element signature="e#1552#1722#0" />
@@ -1414,44 +1328,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/shared-styles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-596" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/my-app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="951" column="13" selection-start-line="951" selection-start-column="13" selection-end-line="951" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud/datastore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="323">
+          <caret line="102" column="19" lean-forward="true" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#587#1051#0" />
-            <element signature="e#1116#1552#0" />
-            <element signature="e#1554#1764#0" />
-            <element signature="e#1791#2015#0" />
-            <element signature="e#1811#1901#0" />
-            <element signature="e#1921#2011#0" />
-            <element signature="e#2191#3523#0" />
-            <element signature="e#3667#4619#0" />
-            <element signature="e#4638#4823#0" />
-            <element signature="e#4658#4819#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/smart-light.html">
+    <entry file="file://$PROJECT_DIR$/smart-home-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        <state relative-caret-position="172">
+          <caret line="500" column="37" selection-start-line="500" selection-start-column="37" selection-end-line="500" selection-end-column="37" />
         </state>
       </provider>
     </entry>
