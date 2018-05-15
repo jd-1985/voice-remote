@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9bb766e-d058-4aef-89da-cf8fc92fa46e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/cloud/datastore.js" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/datastore.js" afterDir="false" />
-    </list>
+    <list default="true" id="f9bb766e-d058-4aef-89da-cf8fc92fa46e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -29,7 +27,7 @@
       <file leaf-file-name="datastore.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud/datastore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="106">
               <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -626,16 +624,15 @@
       <workItem from="1526051931753" duration="16751000" />
       <workItem from="1526244054709" duration="5460000" />
       <workItem from="1526319450689" duration="8372000" />
-      <workItem from="1526347126108" duration="3316000" />
+      <workItem from="1526347126108" duration="4043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49788000" />
+    <option name="totallyTimeSpent" value="50515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="-11" width="1859" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24918212" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -1336,7 +1333,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud/datastore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="106">
           <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
