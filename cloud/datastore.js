@@ -98,10 +98,9 @@ const Data = {
                         defaultNames: [
                             'Sony TY'
                         ],
-                        name: 'TV',
+                        name: 'Sony',
                         nicknames: [
-                            'television',
-                            'tv'
+                            'television'
                         ]
                     },
                     willReportState: false,
