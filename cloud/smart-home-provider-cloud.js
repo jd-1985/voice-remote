@@ -412,7 +412,12 @@ var auth = (mqtt_url.auth || ':').split(':');
 function connetMQTT() {
     app.mqttClient = mqtt.connect(mqtt_url, {
         username: auth[0],
-        password: auth[1]
+        password: auth[1],
+        clientId: `cl_1234`,
+        clean: false,
+        keepalive: 10 * 1000,
+        reconnectPeriod: 90000,
+        connectTimeout: 30 * 1000
     });
     /** Emitted on successful connection */
     app.mqttClient.on('connect', function() {
