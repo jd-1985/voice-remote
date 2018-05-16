@@ -4,8 +4,8 @@
     <list default="true" id="f9bb766e-d058-4aef-89da-cf8fc92fa46e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud/datastore.js" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/datastore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/smart-home-provider-cloud.js" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/smart-home-provider-cloud.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/my-app.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/my-app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/smart-device.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/smart-device.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/smart-light.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/smart-light.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,26 +24,23 @@
       <file leaf-file-name="my-app.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/my-app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="127" column="48" lean-forward="true" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="48" />
+            <state relative-caret-position="187">
+              <caret line="20" column="71" lean-forward="true" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
               <folding>
                 <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
                 <element signature="e#4379#6605#0" />
-                <element signature="e#11789#12446#0" />
-                <element signature="e#13311#13429#0" />
-                <element signature="e#13466#14322#0" />
-                <element signature="e#14373#16565#0" />
-                <element signature="e#16597#17053#0" />
-                <element signature="e#17116#17335#0" />
-                <element signature="e#19685#22114#0" />
-                <element signature="e#22173#24556#0" />
-                <element signature="e#24605#26478#0" />
-                <element signature="e#26529#28545#0" />
-                <element signature="e#28597#32714#0" />
-                <element signature="e#32766#37759#0" />
-                <element signature="e#37823#40404#0" />
-                <element signature="e#40442#40809#0" />
-                <element signature="e#40875#41309#0" />
+                <element signature="e#7327#8950#0" />
+                <element signature="e#15173#15629#0" />
+                <element signature="e#15692#15911#0" />
+                <element signature="e#15961#18201#0" />
+                <element signature="e#18234#39408#0" />
+                <element signature="e#20749#23132#0" />
+                <element signature="e#23181#25054#0" />
+                <element signature="e#25105#27121#0" />
+                <element signature="e#27173#31290#0" />
+                <element signature="e#31342#36335#0" />
+                <element signature="e#36399#38980#0" />
+                <element signature="e#39018#39385#0" />
               </folding>
             </state>
           </provider>
@@ -52,7 +49,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/node-fetch/lib/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="17">
               <caret line="1395" column="6" selection-start-line="1395" selection-start-column="6" selection-end-line="1395" selection-end-column="6" />
             </state>
           </provider>
@@ -61,34 +58,20 @@
       <file leaf-file-name="datastore.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud/datastore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="89" column="26" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="26" />
+            <state relative-caret-position="1088">
+              <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
               <folding>
                 <element signature="e#587#1051#0" />
-                <element signature="e#2864#3064#0" />
-                <element signature="e#3092#3394#0" />
-                <element signature="e#3506#3706#0" />
-                <element signature="e#3876#4880#0" />
-                <element signature="e#4198#4493#0" />
-                <element signature="e#1116#1552#0" />
-                <element signature="e#1554#1764#0" />
-                <element signature="e#1791#2015#0" />
-                <element signature="e#1811#1901#0" />
-                <element signature="e#1921#2011#0" />
-                <element signature="e#2191#3523#0" />
-                <element signature="e#3667#4619#0" />
-                <element signature="e#4638#4823#0" />
-                <element signature="e#4658#4819#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smart-light.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="smart-light.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/smart-light.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="70" column="91" lean-forward="true" selection-start-line="70" selection-start-column="91" selection-end-line="70" selection-end-column="91" />
+            <state relative-caret-position="1887">
+              <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -96,15 +79,17 @@
       <file leaf-file-name="shared-styles.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/shared-styles.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-596" />
+            <state relative-caret-position="233">
+              <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smart-device.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="smart-device.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/smart-device.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="249" column="71" lean-forward="true" selection-start-line="249" selection-start-column="71" selection-end-line="249" selection-end-column="71" />
+            <state relative-caret-position="369">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
@@ -121,7 +106,7 @@
       <file leaf-file-name="smart-home-provider-cloud.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud/smart-home-provider-cloud.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="1547">
               <caret line="399" column="75" lean-forward="true" selection-start-line="399" selection-start-column="75" selection-end-line="399" selection-end-column="75" />
               <folding>
                 <element signature="e#1127#1361#0" />
@@ -197,9 +182,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>remove-device</find>
-      <find>call</find>
-      <find>/smarthome</find>
       <find>user</find>
       <find>_callSmartHomeProviderCloud</find>
       <find>smartHomeExec</find>
@@ -224,9 +206,12 @@
       <find>ready</find>
       <find>push</find>
       <find>incandescent</find>
+      <find>1234</find>
       <find>_handleBrightness</find>
       <find>_addLi</find>
-      <find>1234</find>
+      <find>_getDevices</find>
+      <find>style</find>
+      <find>450</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -249,6 +234,7 @@
         <option value="$PROJECT_DIR$/frontend/src/my-app.html" />
         <option value="$PROJECT_DIR$/cloud/datastore.js" />
         <option value="$PROJECT_DIR$/frontend/src/smart-light.html" />
+        <option value="$PROJECT_DIR$/frontend/src/smart-device.html" />
       </list>
     </option>
   </component>
@@ -671,56 +657,57 @@
       <workItem from="1526007599064" duration="6111000" />
       <workItem from="1526051931753" duration="16751000" />
       <workItem from="1526244054709" duration="5460000" />
-      <workItem from="1526319450689" duration="8372000" />
+      <workItem from="1526319450689" duration="8615000" />
+      <workItem from="1526491879456" duration="5894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45863000" />
+    <option name="totallyTimeSpent" value="52000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23290938" />
       <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32908458" />
-      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.32908458" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5538818" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.10312862" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="5" visible="true" weight="0.39976826" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.39976826" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="REST Client" order="1" weight="0.33648792" />
-      <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="3" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.32908458" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24960254" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23290938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.32908458" />
       <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="bottom" id="REST Client" order="1" weight="0.33648792" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" visible="true" weight="0.39976826" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5538818" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.39976826" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4820394" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32908458" />
       <window_info anchor="bottom" id="Message" order="2" />
@@ -740,6 +727,111 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cloud/datastore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="118" column="38" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="38" />
+          <folding>
+            <element signature="e#587#1051#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/shared-styles.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/smart-device.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4233">
+          <caret line="249" column="71" lean-forward="true" selection-start-line="249" selection-start-column="71" selection-end-line="249" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/smart-home-provider-cloud.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="399" column="75" lean-forward="true" selection-start-line="399" selection-start-column="75" selection-end-line="399" selection-end-column="75" />
+          <folding>
+            <element signature="e#1127#1361#0" />
+            <element signature="e#1552#1722#0" />
+            <element signature="e#1578#1626#0" />
+            <element signature="e#1849#2174#0" />
+            <element signature="e#2237#3060#0" />
+            <element signature="e#2372#2576#0" />
+            <element signature="e#2403#2520#0" />
+            <element signature="e#2667#2878#0" />
+            <element signature="e#2698#2815#0" />
+            <element signature="e#2912#3029#0" />
+            <element signature="e#3064#3397#0" />
+            <element signature="e#3471#4534#0" />
+            <element signature="e#3627#3886#0" />
+            <element signature="e#3721#3838#0" />
+            <element signature="e#4080#4289#0" />
+            <element signature="e#4111#4228#0" />
+            <element signature="e#4385#4502#0" />
+            <element signature="e#4538#4601#0" />
+            <element signature="e#4673#5597#0" />
+            <element signature="e#4829#5088#0" />
+            <element signature="e#4923#5040#0" />
+            <element signature="e#5121#5167#0" />
+            <element signature="e#5280#5383#0" />
+            <element signature="e#5443#5560#0" />
+            <element signature="e#5601#5721#0" />
+            <element signature="e#5793#6829#0" />
+            <element signature="e#5949#6208#0" />
+            <element signature="e#6043#6160#0" />
+            <element signature="e#6372#6579#0" />
+            <element signature="e#6403#6520#0" />
+            <element signature="e#6675#6792#0" />
+            <element signature="e#6833#7146#0" />
+            <element signature="e#7365#7561#0" />
+            <element signature="e#7396#7513#0" />
+            <element signature="e#7683#7888#0" />
+            <element signature="e#7714#7831#0" />
+            <element signature="e#7922#8030#0" />
+            <element signature="e#8090#8207#0" />
+            <element signature="e#8311#8638#0" />
+            <element signature="e#8456#8579#0" />
+            <element signature="e#8642#9045#0" />
+            <element signature="e#9315#9511#0" />
+            <element signature="e#9346#9463#0" />
+            <element signature="e#9585#9789#0" />
+            <element signature="e#9616#9733#0" />
+            <element signature="e#9849#9966#0" />
+            <element signature="e#9993#10078#0" />
+            <element signature="e#10163#10706#0" />
+            <element signature="e#10349#10582#0" />
+            <element signature="e#10657#10702#0" />
+            <element signature="e#10809#11499#0" />
+            <element signature="e#10816#10867#0" />
+            <element signature="e#10928#11001#0" />
+            <element signature="e#11075#11321#0" />
+            <element signature="e#11327#11497#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-home-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8262">
+          <caret line="497" column="93" selection-start-line="497" selection-start-column="93" selection-end-line="497" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/smart-light.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="53" selection-start-line="82" selection-start-column="53" selection-end-line="82" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/my-app.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14110">
@@ -747,21 +839,18 @@
           <folding>
             <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
             <element signature="e#4379#6605#0" />
-            <element signature="e#11789#12446#0" />
-            <element signature="e#13311#13429#0" />
-            <element signature="e#13466#14322#0" />
-            <element signature="e#14373#16565#0" />
-            <element signature="e#16597#17053#0" />
-            <element signature="e#17116#17335#0" />
-            <element signature="e#19685#22114#0" />
-            <element signature="e#22173#24556#0" />
-            <element signature="e#24605#26478#0" />
-            <element signature="e#26529#28545#0" />
-            <element signature="e#28597#32714#0" />
-            <element signature="e#32766#37759#0" />
-            <element signature="e#37823#40404#0" />
-            <element signature="e#40442#40809#0" />
-            <element signature="e#40875#41309#0" />
+            <element signature="e#7327#8950#0" />
+            <element signature="e#15173#15629#0" />
+            <element signature="e#15692#15911#0" />
+            <element signature="e#15961#18201#0" />
+            <element signature="e#18234#39408#0" />
+            <element signature="e#20749#23132#0" />
+            <element signature="e#23181#25054#0" />
+            <element signature="e#25105#27121#0" />
+            <element signature="e#27173#31290#0" />
+            <element signature="e#31342#36335#0" />
+            <element signature="e#36399#38980#0" />
+            <element signature="e#39018#39385#0" />
           </folding>
         </state>
       </provider>
@@ -772,20 +861,6 @@
           <caret line="409" column="21" lean-forward="true" selection-start-line="409" selection-start-column="21" selection-end-line="409" selection-end-column="21" />
           <folding>
             <element signature="e#587#1051#0" />
-            <element signature="e#2864#3064#0" />
-            <element signature="e#3092#3394#0" />
-            <element signature="e#3506#3706#0" />
-            <element signature="e#3876#4880#0" />
-            <element signature="e#4198#4493#0" />
-            <element signature="e#1116#1552#0" />
-            <element signature="e#1554#1764#0" />
-            <element signature="e#1791#2015#0" />
-            <element signature="e#1811#1901#0" />
-            <element signature="e#1921#2011#0" />
-            <element signature="e#2191#3523#0" />
-            <element signature="e#3667#4619#0" />
-            <element signature="e#4638#4823#0" />
-            <element signature="e#4658#4819#0" />
           </folding>
         </state>
       </provider>
@@ -882,21 +957,18 @@
           <folding>
             <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
             <element signature="e#4379#6605#0" />
-            <element signature="e#11789#12446#0" />
-            <element signature="e#13311#13429#0" />
-            <element signature="e#13466#14322#0" />
-            <element signature="e#14373#16565#0" />
-            <element signature="e#16597#17053#0" />
-            <element signature="e#17116#17335#0" />
-            <element signature="e#19685#22114#0" />
-            <element signature="e#22173#24556#0" />
-            <element signature="e#24605#26478#0" />
-            <element signature="e#26529#28545#0" />
-            <element signature="e#28597#32714#0" />
-            <element signature="e#32766#37759#0" />
-            <element signature="e#37823#40404#0" />
-            <element signature="e#40442#40809#0" />
-            <element signature="e#40875#41309#0" />
+            <element signature="e#7327#8950#0" />
+            <element signature="e#15173#15629#0" />
+            <element signature="e#15692#15911#0" />
+            <element signature="e#15961#18201#0" />
+            <element signature="e#18234#39408#0" />
+            <element signature="e#20749#23132#0" />
+            <element signature="e#23181#25054#0" />
+            <element signature="e#25105#27121#0" />
+            <element signature="e#27173#31290#0" />
+            <element signature="e#31342#36335#0" />
+            <element signature="e#36399#38980#0" />
+            <element signature="e#39018#39385#0" />
           </folding>
         </state>
       </provider>
@@ -907,20 +979,6 @@
           <caret lean-forward="true" />
           <folding>
             <element signature="e#587#1051#0" />
-            <element signature="e#2864#3064#0" />
-            <element signature="e#3092#3394#0" />
-            <element signature="e#3506#3706#0" />
-            <element signature="e#3876#4880#0" />
-            <element signature="e#4198#4493#0" />
-            <element signature="e#1116#1552#0" />
-            <element signature="e#1554#1764#0" />
-            <element signature="e#1791#2015#0" />
-            <element signature="e#1811#1901#0" />
-            <element signature="e#1921#2011#0" />
-            <element signature="e#2191#3523#0" />
-            <element signature="e#3667#4619#0" />
-            <element signature="e#4638#4823#0" />
-            <element signature="e#4658#4819#0" />
           </folding>
         </state>
       </provider>
@@ -1017,21 +1075,18 @@
           <folding>
             <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
             <element signature="e#4379#6605#0" />
-            <element signature="e#11789#12446#0" />
-            <element signature="e#13311#13429#0" />
-            <element signature="e#13466#14322#0" />
-            <element signature="e#14373#16565#0" />
-            <element signature="e#16597#17053#0" />
-            <element signature="e#17116#17335#0" />
-            <element signature="e#19685#22114#0" />
-            <element signature="e#22173#24556#0" />
-            <element signature="e#24605#26478#0" />
-            <element signature="e#26529#28545#0" />
-            <element signature="e#28597#32714#0" />
-            <element signature="e#32766#37759#0" />
-            <element signature="e#37823#40404#0" />
-            <element signature="e#40442#40809#0" />
-            <element signature="e#40875#41309#0" />
+            <element signature="e#7327#8950#0" />
+            <element signature="e#15173#15629#0" />
+            <element signature="e#15692#15911#0" />
+            <element signature="e#15961#18201#0" />
+            <element signature="e#18234#39408#0" />
+            <element signature="e#20749#23132#0" />
+            <element signature="e#23181#25054#0" />
+            <element signature="e#25105#27121#0" />
+            <element signature="e#27173#31290#0" />
+            <element signature="e#31342#36335#0" />
+            <element signature="e#36399#38980#0" />
+            <element signature="e#39018#39385#0" />
           </folding>
         </state>
       </provider>
@@ -1042,20 +1097,6 @@
           <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#587#1051#0" />
-            <element signature="e#2864#3064#0" />
-            <element signature="e#3092#3394#0" />
-            <element signature="e#3506#3706#0" />
-            <element signature="e#3876#4880#0" />
-            <element signature="e#4198#4493#0" />
-            <element signature="e#1116#1552#0" />
-            <element signature="e#1554#1764#0" />
-            <element signature="e#1791#2015#0" />
-            <element signature="e#1811#1901#0" />
-            <element signature="e#1921#2011#0" />
-            <element signature="e#2191#3523#0" />
-            <element signature="e#3667#4619#0" />
-            <element signature="e#4638#4823#0" />
-            <element signature="e#4658#4819#0" />
           </folding>
         </state>
       </provider>
@@ -1152,21 +1193,18 @@
           <folding>
             <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
             <element signature="e#4379#6605#0" />
-            <element signature="e#11789#12446#0" />
-            <element signature="e#13311#13429#0" />
-            <element signature="e#13466#14322#0" />
-            <element signature="e#14373#16565#0" />
-            <element signature="e#16597#17053#0" />
-            <element signature="e#17116#17335#0" />
-            <element signature="e#19685#22114#0" />
-            <element signature="e#22173#24556#0" />
-            <element signature="e#24605#26478#0" />
-            <element signature="e#26529#28545#0" />
-            <element signature="e#28597#32714#0" />
-            <element signature="e#32766#37759#0" />
-            <element signature="e#37823#40404#0" />
-            <element signature="e#40442#40809#0" />
-            <element signature="e#40875#41309#0" />
+            <element signature="e#7327#8950#0" />
+            <element signature="e#15173#15629#0" />
+            <element signature="e#15692#15911#0" />
+            <element signature="e#15961#18201#0" />
+            <element signature="e#18234#39408#0" />
+            <element signature="e#20749#23132#0" />
+            <element signature="e#23181#25054#0" />
+            <element signature="e#25105#27121#0" />
+            <element signature="e#27173#31290#0" />
+            <element signature="e#31342#36335#0" />
+            <element signature="e#36399#38980#0" />
+            <element signature="e#39018#39385#0" />
           </folding>
         </state>
       </provider>
@@ -1177,20 +1215,6 @@
           <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
           <folding>
             <element signature="e#587#1051#0" />
-            <element signature="e#2864#3064#0" />
-            <element signature="e#3092#3394#0" />
-            <element signature="e#3506#3706#0" />
-            <element signature="e#3876#4880#0" />
-            <element signature="e#4198#4493#0" />
-            <element signature="e#1116#1552#0" />
-            <element signature="e#1554#1764#0" />
-            <element signature="e#1791#2015#0" />
-            <element signature="e#1811#1901#0" />
-            <element signature="e#1921#2011#0" />
-            <element signature="e#2191#3523#0" />
-            <element signature="e#3667#4619#0" />
-            <element signature="e#4638#4823#0" />
-            <element signature="e#4658#4819#0" />
           </folding>
         </state>
       </provider>
@@ -1216,21 +1240,18 @@
           <folding>
             <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
             <element signature="e#4379#6605#0" />
-            <element signature="e#11789#12446#0" />
-            <element signature="e#13311#13429#0" />
-            <element signature="e#13466#14322#0" />
-            <element signature="e#14373#16565#0" />
-            <element signature="e#16597#17053#0" />
-            <element signature="e#17116#17335#0" />
-            <element signature="e#19685#22114#0" />
-            <element signature="e#22173#24556#0" />
-            <element signature="e#24605#26478#0" />
-            <element signature="e#26529#28545#0" />
-            <element signature="e#28597#32714#0" />
-            <element signature="e#32766#37759#0" />
-            <element signature="e#37823#40404#0" />
-            <element signature="e#40442#40809#0" />
-            <element signature="e#40875#41309#0" />
+            <element signature="e#7327#8950#0" />
+            <element signature="e#15173#15629#0" />
+            <element signature="e#15692#15911#0" />
+            <element signature="e#15961#18201#0" />
+            <element signature="e#18234#39408#0" />
+            <element signature="e#20749#23132#0" />
+            <element signature="e#23181#25054#0" />
+            <element signature="e#25105#27121#0" />
+            <element signature="e#27173#31290#0" />
+            <element signature="e#31342#36335#0" />
+            <element signature="e#36399#38980#0" />
+            <element signature="e#39018#39385#0" />
           </folding>
         </state>
       </provider>
@@ -1241,20 +1262,6 @@
           <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
           <folding>
             <element signature="e#587#1051#0" />
-            <element signature="e#2864#3064#0" />
-            <element signature="e#3092#3394#0" />
-            <element signature="e#3506#3706#0" />
-            <element signature="e#3876#4880#0" />
-            <element signature="e#4198#4493#0" />
-            <element signature="e#1116#1552#0" />
-            <element signature="e#1554#1764#0" />
-            <element signature="e#1791#2015#0" />
-            <element signature="e#1811#1901#0" />
-            <element signature="e#1921#2011#0" />
-            <element signature="e#2191#3523#0" />
-            <element signature="e#3667#4619#0" />
-            <element signature="e#4638#4823#0" />
-            <element signature="e#4658#4819#0" />
           </folding>
         </state>
       </provider>
@@ -1331,13 +1338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/node-fetch/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="1395" column="6" selection-start-line="1395" selection-start-column="6" selection-end-line="1395" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1345,16 +1345,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/smart-device.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="249" column="71" lean-forward="true" selection-start-line="249" selection-start-column="71" selection-end-line="249" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud/smart-home-provider-cloud.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
+        <state relative-caret-position="1547">
           <caret line="399" column="75" lean-forward="true" selection-start-line="399" selection-start-column="75" selection-end-line="399" selection-end-column="75" />
           <folding>
             <element signature="e#1127#1361#0" />
@@ -1416,65 +1409,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/shared-styles.html">
+    <entry file="file://$PROJECT_DIR$/node_modules/node-fetch/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-596" />
+        <state relative-caret-position="17">
+          <caret line="1395" column="6" selection-start-line="1395" selection-start-column="6" selection-end-line="1395" selection-end-column="6" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/my-app.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="127" column="48" lean-forward="true" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="48" />
+        <state relative-caret-position="187">
+          <caret line="20" column="71" lean-forward="true" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
           <folding>
             <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" />
             <element signature="e#4379#6605#0" />
-            <element signature="e#11789#12446#0" />
-            <element signature="e#13311#13429#0" />
-            <element signature="e#13466#14322#0" />
-            <element signature="e#14373#16565#0" />
-            <element signature="e#16597#17053#0" />
-            <element signature="e#17116#17335#0" />
-            <element signature="e#19685#22114#0" />
-            <element signature="e#22173#24556#0" />
-            <element signature="e#24605#26478#0" />
-            <element signature="e#26529#28545#0" />
-            <element signature="e#28597#32714#0" />
-            <element signature="e#32766#37759#0" />
-            <element signature="e#37823#40404#0" />
-            <element signature="e#40442#40809#0" />
-            <element signature="e#40875#41309#0" />
+            <element signature="e#7327#8950#0" />
+            <element signature="e#15173#15629#0" />
+            <element signature="e#15692#15911#0" />
+            <element signature="e#15961#18201#0" />
+            <element signature="e#18234#39408#0" />
+            <element signature="e#20749#23132#0" />
+            <element signature="e#23181#25054#0" />
+            <element signature="e#25105#27121#0" />
+            <element signature="e#27173#31290#0" />
+            <element signature="e#31342#36335#0" />
+            <element signature="e#36399#38980#0" />
+            <element signature="e#39018#39385#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/shared-styles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud/datastore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="89" column="26" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="26" />
+        <state relative-caret-position="1088">
+          <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
           <folding>
             <element signature="e#587#1051#0" />
-            <element signature="e#2864#3064#0" />
-            <element signature="e#3092#3394#0" />
-            <element signature="e#3506#3706#0" />
-            <element signature="e#3876#4880#0" />
-            <element signature="e#4198#4493#0" />
-            <element signature="e#1116#1552#0" />
-            <element signature="e#1554#1764#0" />
-            <element signature="e#1791#2015#0" />
-            <element signature="e#1811#1901#0" />
-            <element signature="e#1921#2011#0" />
-            <element signature="e#2191#3523#0" />
-            <element signature="e#3667#4619#0" />
-            <element signature="e#4638#4823#0" />
-            <element signature="e#4658#4819#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/smart-light.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="70" column="91" lean-forward="true" selection-start-line="70" selection-start-column="91" selection-end-line="70" selection-end-column="91" />
+        <state relative-caret-position="1887">
+          <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/smart-device.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>

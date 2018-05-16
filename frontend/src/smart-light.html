@@ -31,12 +31,23 @@ limitations under the License.
 <dom-module id="smart-light">
     <template>
         <smart-device id="smart-device" device="{{device}}" type="lights">
-            <div slot="device-controls">
+            <!--<div slot="device-controls">
                 <paper-slider id="brightness" title="Brightness" editable="true" disabled="[[!device.states.on]]" value="{{device.states.brightness}}"
                     on-value-change="_handleBrightness"></paper-slider>
+            </div>-->
+            <div slot="device-controls">
+                <paper-icon-button id="vol-up" icon="av:volume-up"></paper-icon-button>
+                <paper-icon-button id="mute" icon="av:volume-off"></paper-icon-button>
+                <paper-icon-button id="vol-down" icon="av:volume-down"></paper-icon-button>
+                <template is="dom-if" if="[[device.properties.attributes.availableModes]]">
+                    <paper-icon-button id="picture-toggle" icon="hardware:tv"></paper-icon-button>
+                </template>
+
             </div>
             <iron-icon id="light" on-tap="_handleOnOff" slot="device-icon"></iron-icon>
+
         </smart-device>
+
     </template>
 
     <script>
@@ -47,7 +58,13 @@ limitations under the License.
                 if (this.device) {
                     this.device.states.on = !this.device.states.on;
                     var request = {};
-                    request.code = "NEC:5D0532CD";
+                    request.code = "TYPE:0000";
+                    if(this.device.properties.attributes && this.device.properties.attributes.availableModes) {
+                        //tv
+                        request.code = "SONY:A90";
+                    } else {
+                        request.code = "NEC:5D0532CD";
+                    }
                     this._callSmartHomeProviderCloud('/sendMessage', 'POST', request);
                     this._notifyStateChange();
                 }
@@ -92,7 +109,7 @@ limitations under the License.
                 } else {
                     this.$.light.style.color = '#eee';
                 }
-                this.$.brightness.disabled = !this.device.states.on;
+                //this.$.brightness.disabled = !this.device.states.on;
             }
 
         }

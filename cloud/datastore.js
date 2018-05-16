@@ -96,7 +96,7 @@ const Data = {
                     ],
                     name: {
                         defaultNames: [
-                            'Sony TY'
+                            'Sony TV'
                         ],
                         name: 'TV',
                         nicknames: [

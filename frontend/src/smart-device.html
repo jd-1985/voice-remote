@@ -47,7 +47,7 @@ limitations under the License.
             }
 
             .card {
-                height: 450px;
+                height: 380px;
                 width: 300px;
             }
 
@@ -69,13 +69,14 @@ limitations under the License.
                 <div id="device-id" class="circle"></div>
                 <div class="flex"></div>
 
-                <paper-icon-button id="cloud" icon="cloud-off" on-tap="_handleCloud"></paper-icon-button>
-                <paper-icon-button icon="delete" on-tap="_handleDelete"></paper-icon-button>
+                <!--<paper-icon-button id="cloud" icon="cloud-off" on-tap="_handleCloud"></paper-icon-button>
+                <paper-icon-button icon="delete" on-tap="_handleDelete"></paper-icon-button>-->
+                <slot name="device-controls"></slot>
             </div>
 
             <!-- icon -->
             <div align="center">
-                <slot name="device-controls"></slot>
+                <!--<slot name="device-controls"></slot>-->
                 <slot name="device-icon"></slot>
                 <slot name="device-states"></slot>
             </div>

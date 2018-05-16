@@ -170,8 +170,8 @@ limitations under the License.
         </paper-dialog>-->
 
 
-        <paper-button on-tap="_sendMQTT" data-args="tv">On/Off TV</paper-button>
-        <paper-button on-tap="_sendMQTT" data-args="sbar">On/Off Soundbar</paper-button>
+        <!--<paper-button on-tap="_sendMQTT" data-args="tv">On/Off TV</paper-button>
+        <paper-button on-tap="_sendMQTT" data-args="sbar">On/Off Soundbar</paper-button>-->
         <!--<div id="no-devices-msg" hidden="[[hide]]">
             <p class="layout horizontal center-justified">
                 You currently don't have any devices set up. To set up a device, click the "+" button and take it online.
@@ -186,7 +186,7 @@ limitations under the License.
             </template>
         </iron-list>
 
-        <iron-list id="thermostat-list" items="[[thermostats]]" as="item" grid>
+        <!--<iron-list id="thermostat-list" items="[[thermostats]]" as="item" grid>
             <template>
                 <div class="item">
                     <smart-thermostat device=[[item]]></smart-thermostat>
@@ -232,7 +232,7 @@ limitations under the License.
                     <smart-refrigerator device=[[item]]></smart-refrigerator>
                 </div>
             </template>
-        </iron-list>
+        </iron-list>-->
     </template>
 
     <script>
@@ -253,7 +253,7 @@ limitations under the License.
                 deviceCount: {
                     type: Number,
                     value: 0
-                },
+                }/*,
                 lights: {
                     type: Array
                 },
@@ -274,7 +274,7 @@ limitations under the License.
                 },
                 refrigerators: {
                     type: Array
-                }
+                }*/
             },
 
             ready: function () {
@@ -367,7 +367,7 @@ limitations under the License.
                         delete devices[id].properties.id;
                         devices[id].states.on = false;
                         devices[id].states.online = false;
-                        switch(devices[id].properties.type) {
+                        /*switch(devices[id].properties.type) {
                             case 'action.devices.types.LIGHT':
                                 app._addLight(null, devices[id]);
                                 break;
@@ -395,7 +395,7 @@ limitations under the License.
                                 break;
                             default:
                                 break;
-                        }
+                        }*/
                         nextDeviceId = parseInt(id)+1;
                     }
                 }
@@ -473,7 +473,7 @@ limitations under the License.
                 }
             },
 
-            _addMonochromeLight: function (event, light) {
+            /*_addMonochromeLight: function (event, light) {
                 this.hideNoDeviceMessage();
                 this.deviceCount++;
                 let nicknames = ['table lamp', 'reading lamp', 'doorway', 'stairway'];
@@ -919,7 +919,7 @@ limitations under the License.
                     request.code = "NEC:5D0532CD";
                 }
                 this._callSmartHomeProviderCloud('/sendMessage', 'POST', request);
-            },
+            },*/
             _callSmartHomeProviderCloud(path, method, opt_body) {
                 const options = {
                     method: method,
