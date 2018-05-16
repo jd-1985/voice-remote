@@ -494,8 +494,14 @@ function registerAgent(app) {
    * }
    */
   function execDevice(uid, command, device) {
-      app.sendMessage("NEC:5D0532CD");
       console.log("execDevice Irfan for uid:" + uid + ", command:" + command + ", device:" + device);
+      if(device) {
+          if(device.id == "1"){
+              app.sendMessage("NEC:5D0532CD");
+          } else if(device.id == "2"){
+              app.sendMessage("SONY:A90");
+          }
+      }
     let curDevice = {
       id: device.id,
       states: {}
@@ -513,10 +519,11 @@ function registerAgent(app) {
     let execDevice = app.smartHomeExec(uid, curDevice);
     console.info("execDevice", JSON.stringify(execDevice[device.id]));
     // Check whether the device exists or whether it exists and it is disconnected.
-    if (!execDevice || !execDevice[device.id].states.online) {
+      //TODO Fix the offine code
+    /*if (!execDevice || !execDevice[device.id].states.online) {
       console.warn("The device you want to control is offline");
       return {status: "ERROR", errorCode: "deviceOffline"};
-    }
+    }*/
     let deviceCommand = {
       type: 'change',
       state: {}

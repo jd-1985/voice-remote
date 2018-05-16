@@ -403,26 +403,56 @@ app.post('/smart-home-api/getDevices', function(request, response){
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@ MQTT Code Here @@@@@@@@@@@@@@@@@@@@@@@ */
 
-const MqttClient = {};
 
 var mqtt = require('mqtt'), url = require('url');
 // Parse
 var mqtt_url = url.parse(process.env.CLOUDMQTT_URL || 'mqtt://localhost:1883');
 var auth = (mqtt_url.auth || ':').split(':');
 
-app.sendMessage = function (message) {
-    MqttClient.client = mqtt.connect(mqtt_url, {
+function connetMQTT() {
+    app.mqttClient = mqtt.connect(mqtt_url, {
         username: auth[0],
-        password: auth[1]
+        password: auth[1],
+        clientId: `cl_1234`,
+        clean: false,
+        keepalive: 10 * 1000,
+        reconnectPeriod: 90000,
+        connectTimeout: 30 * 1000
     });
+    /** Emitted on successful connection */
+    app.mqttClient.on('connect', function() {
+        console.log("[MQTT] Connected to MQTT server");
+        app.mqttConnected = true;
+        app.mqttClient.subscribe('reply');
+    });
+
+    /** Emitted on connection error */
+    app.mqttClient.on('error', function() {
+        console.log("[MQTT] MQTT Error");
+        app.mqttConnected = false;
+    });
+
+    /** Emitted on connection offline status */
+    app.mqttClient.on('offline', function() {
+        console.log("[MQTT] Connection offline");
+        app.mqttConnected = false;
+    });
+
+};
+
+
+app.sendMessage = function (message) {
+  if(!app.mqttConnected){
+    connetMQTT();
+  }
     console.log("****************" + JSON.stringify(message));
-    MqttClient.client.publish('/feeds/irSend', message, {qos:2}, function(err) {
+    app.mqttClient.publish('/feeds/irSend', message, {qos:2}, function(err) {
       if(err){
           console.log("Successfully Published " + message + " to /feeds/irSend");
       } else {
           console.log("Error occurred***************************" + err);
       }
-        MqttClient.client.end(); // Close the connection when published
+        //client.end(); // Close the connection when published
     });
 };
 
@@ -593,7 +623,7 @@ function registerAuth(app) {
 
 registerGoogleHa(app);
 registerAuth(app);
-
+connetMQTT();
 console.log("\n\nRegistered routes:");
 app._router.stack.forEach(function(r){
   if (r.route && r.route.path){
